@@ -18,7 +18,8 @@ After eleven years as an implementation consultant in HR and Payroll technology,
 
 **Mathematics from the ground up.** Brilliant for intuition, Khan Academy for depth, 3Blue1Brown for the visual reasoning that makes the rest stick.
 
-**Programming progression.** Python first, then C++, then Rust. FreeCodeCamp and other structured curricula, with certifications along the way.
+**Programming progression.** Python first, then C++, then Rust. FreeCodeCamp and other structured curricula, with certifications along the way. 
+Update: Started FreeCodeCamp Python Course on 05/02/2026
 
 **AI at work.** Taking every AI training module my current employer offers — applied learning while I'm still in the seat. Intermediate goal: become an early adopter, AI thought leader in my company.
 
