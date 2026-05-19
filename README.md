@@ -43,4 +43,4 @@ Below are the public artifacts of this path. Each one is a milestone: the build 
 
 *Per aspera ad astra.*
 
-<img src="https://s7d2.scene7.com/is/image/TWCNews/04-01-2026_Artemis_II_Launch_Anthony_Leone_A?wid=1250&hei=703&$wide-bg$" width="500">
+<img src="https://images-assets.nasa.gov/image/NHQ202211160002/NHQ202211160002~large.jpg?w=1920&h=1193&fit=clip&crop=faces%2Cfocalpoint" width="500">
