@@ -35,8 +35,8 @@ Below are the public artifacts of this path. Each one is a milestone: the build 
 
 ## Get in touch
 
-- LinkedIn: [[My Profile](https://www.linkedin.com/in/9430233o/)]
-- Email: [dan.lee.odinson@gmail.com]
+- LinkedIn: [[My Profile](https://www.linkedin.com/in/dan-lee-odinson/)]
+- Email: [dan.lee.odinson [at] gmail.com]
 - Blog: *coming soon*
 
 ---
