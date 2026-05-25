@@ -2,7 +2,7 @@
 
 ## Dan Lee-Odinson
 
->🌒 **The moonshot:** an engineering role with a space agency or commercial space company.
+>🌒 **The moonshot:** an engineering or system ops role with a space agency or commercial space company.
 >
 >🤖 **Specialization:** robotics and autonomous systems.
 
