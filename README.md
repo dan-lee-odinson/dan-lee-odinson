@@ -2,11 +2,15 @@
 
 ## Dan Lee-Odinson
 
->🌒 **The moonshot:** an engineering or system ops role with a space agency or commercial space company.
+>🌒 **The long-term moonshot:** build the technical and domain expertise to contribute to space systems, mission operations, and the teams that support them.
 >
->🤖 **Specialization:** robotics and autonomous systems.
+>🤖 **Specialization:** mission ops, robotics and autonomous systems.
 
-After eleven years as an implementation consultant in HR and Payroll technology, I'm pivoting into space — training for an engineering role focused on robotics and the autonomous systems that will explore the planets with us and ahead of us, millions of miles from home. Everything I'm learning ends up on this profile.
+I am an HCM implementation and technology professional with 11 years of experience in enterprise software delivery, project leadership, client enablement, and technical support.
+
+Alongside my professional work, I am pursuing a B.S. in Space Studies and building an independent technical portfolio focused on programming, computational modeling, AI-assisted research, robotics, space systems, and autonomous systems.
+
+This GitHub documents that learning through working projects, reproducible analysis, technical documentation, and iterative experimentation.
 
 ## 🚀 How I'm getting there
 
@@ -20,7 +24,7 @@ Mathematics for systems thinking. Brilliant for intuition, Khan Academy for dept
 
 Programming progression. Python first via FreeCodeCamp (started 05/02/2026), with operational fluency as the target rather than CS-grade chops. SQL, Bash, and Linux comfort for the day-to-day. AWS Cloud Practitioner → SysOps Administrator → Advanced Networking certifications next, via the Vensure-licensed Skillable hands-on lab track.
 
-AI at work. Taking every AI training module my employer offers, with applied learning while in the seat. Joining a new internal team in July 2026 with direct ownership of an AI-augmented support workflow — production training experience paired with measurable before-and-after KPI capture.
+AI at work. Taking every AI training module my employer offers, with applied learning while in the seat.
 
 Books and audiobooks. Astrophysics, the history of crewed spaceflight, modern aerospace technology, and the personal-development reads that keep a long climb sustainable. The full categorized list with finished-book reflections lives in the reading-list repo.
 
