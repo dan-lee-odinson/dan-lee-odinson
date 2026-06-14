@@ -1,53 +1,98 @@
-# About Me
+# Dan Lee-Odinson
 
-## Dan Lee-Odinson
+> 🌒 **The long-term moonshot:** Build the technical and domain expertise to contribute to space systems, mission operations, and the teams that support them.
 
->🌒 **The long-term moonshot:** build the technical and domain expertise to contribute to space systems, mission operations, and the teams that support them.
->
->🤖 **Areas of focus:** mission ops, robotics and autonomous systems.
+> 🤖 **Areas of focus:** Mission operations, robotics, and autonomous systems.
 
 I am an HCM implementation and technology professional with 11 years of experience in enterprise software delivery, project leadership, client enablement, and technical support.
 
 Alongside my professional work, I am pursuing a B.S. in Space Studies and building an independent technical portfolio focused on programming, computational modeling, AI-assisted research, robotics, space systems, and autonomous systems.
 
-This GitHub documents that learning through working projects, reproducible analysis, technical documentation, and iterative experimentation.
+This GitHub documents that development through working projects, reproducible analysis, technical documentation, and iterative experimentation.
 
-## 🚀 How I'm getting there
+## 🚀 How I’m Getting There
 
-Bachelor of Science in Space Studies, Everglades University — enrolled April 28, 2026. First module (ASC 1100 Intro to Aeronautics) completed June 2026 at 4.0. Currently working through Aviation Law & Regulations.
+### Space Studies
 
-Applied technical projects. The CircuitMess NASA Mars Perseverance Rover kit (ESP32, AI-capable camera, six-wheel drive, robotic arm) is the in-progress hardware platform — every customization and firmware modification gets pushed here. The Artemis-themed self-coded Python smartwatch. Next Pass — a Chrome extension for satellite pass tracking, now live on the Chrome Web Store — was the result of a seven-day AI-augmented development sprint that turned the methodology into a shipped product.
+I began the Bachelor of Science in Space Studies program at Everglades University in April 2026. I completed my first module, ASC 1100: Introduction to Aeronautics, in June 2026 with a 4.0 and am currently studying Aviation Law and Regulations.
 
-AI-augmented learning and shipping. Working with Claude Cowork since April 17, 2026, to systematize how I plan, learn, and ship — The workflow development, evaluation, and documentation are part of the portfolio alongside the finished projects. The methodology has produced multiple public artifacts in 2026: a smart-ring affiliate-marketing blog, the Next Pass Chrome extension, and a thermodynamics preprint published on Zenodo with a DOI, derived through a multi-model adversarial workflow. Experimenting with agentic capabilities, scheduled tasks, and skill library generation to evolve AI from a chatbot into a full collaborator.
+### Applied Technical Projects
 
-Mathematics for systems thinking. Brilliant for intuition, Khan Academy for depth, 3Blue1Brown for the visual reasoning that makes the rest stick. The applied targets are statistics, probability, and operational data analysis — the math foundation that mission operations, program management, and solutions engineering work actually depends on.
+- **CircuitMess NASA Mars Perseverance Rover:** An in-progress hardware platform built around an ESP32, AI-capable camera, six-wheel drive, and robotic arm. Customizations, experiments, and firmware modifications are documented here.
+- **Artemis Smartwatch:** A Python-based smartwatch project used to develop programming and hardware-integration skills.
+- **Next Pass:** A satellite-pass tracking Chrome extension published on the Chrome Web Store. It was developed during a seven-day AI-augmented sprint that turned an experimental workflow into a shipped product.
+- **Orbital Thermal Bounds:** A thermodynamics preprint published on Zenodo with a DOI, supported by a Python simulation package and machine-verification suites.
 
-Programming progression. Python first via FreeCodeCamp (started 05/02/2026), with operational fluency as the target rather than CS-grade chops. SQL, Bash, and Linux comfort for the day-to-day. AWS Cloud Practitioner → SysOps Administrator → Advanced Networking certifications next, via the Vensure-licensed Skillable hands-on lab track.
+### AI-Augmented Learning and Development
 
-AI at work. Taking every AI training module my employer offers, with applied learning while in the seat.
+Since April 17, 2026, I have used Claude Cowork and other AI systems to systematize how I plan, research, learn, test, document, and ship projects.
 
-Books and audiobooks. Astrophysics, the history of crewed spaceflight, modern aerospace technology, and the personal-development reads that keep a long climb sustainable. The full categorized list with finished-book reflections lives in the reading-list repo.
+The development, evaluation, and documentation of these workflows are part of the portfolio alongside the finished artifacts. The methodology has supported several public projects in 2026, including:
 
-Astronomy as a parallel study track, to deepen the domain context for the operations, systems, and program work the space industry actually depends on.
-Up next. Mission operations, technical program management, customer engineering, and solutions engineering roles at commercial space companies. An applied Systems Engineering or Engineering Management MS may follow the BS down the line — not a near-term commitment.
+- A smart-ring research and affiliate-publishing website
+- The Next Pass Chrome extension
+- The Orbital Thermal Bounds preprint and simulation package
+- Multi-model adversarial review and verification workflows
 
-## Pinned projects
+I am also experimenting with agentic workflows, scheduled tasks, reusable skill libraries, and structured human oversight to develop AI from a conversational tool into a more capable research and development environment.
 
-Below are the public artifacts of this path. Each one is a milestone:
-* Next Pass live on the Chrome Web Store,
-* the orbital thermal bounds preprint with its machine-verification suites,
-* the build log for the CircuitMess rover,
-* the coworking-with-claude methodology repository,
-* the reading list that documents the intellectual scaffolding.
+### Mathematics for Systems Thinking
 
-## Get in touch
+I use Brilliant to develop intuition, Khan Academy for structured depth, and 3Blue1Brown for visual reasoning.
 
-- LinkedIn: [[My Profile](https://www.linkedin.com/in/dan-lee-odinson/)]
-- Email: [dan.lee.odinson [at] gmail dot com]
-- Blog: *coming soon*
+My applied priorities are statistics, probability, and operational data analysis—the mathematical foundation supporting mission operations, technical program management, solutions engineering, and systems-oriented decision-making.
+
+### Programming and Technical Foundations
+
+Python is my primary programming language, supported by project-based study through FreeCodeCamp and independent development. My emphasis is on practical automation, simulation, data analysis, systems integration, and technical problem-solving.
+
+Additional development areas include:
+
+- SQL
+- Bash and Linux
+- Cloud infrastructure and operations
+- Embedded systems and sensors
+- Robotics and computer vision
+- Requirements analysis and technical documentation
+
+I am also using Vensure-provided Skillable lab environments to build hands-on AWS and cloud-operations experience.
+
+### Applying AI at Work
+
+I complete the AI training opportunities available through my employer and look for practical applications in implementation, support, training, documentation, research, and workflow improvement.
+
+### Reading and Domain Development
+
+My ongoing reading covers astrophysics, the history of crewed spaceflight, modern aerospace technology, systems thinking, and the personal-development practices that make a long technical journey sustainable.
+
+The categorized reading list, including reflections on completed books, is available in the `reading-list` repository.
+
+Astronomy is a parallel study track that provides broader scientific context for the operational, systems, and program work supporting the space industry.
+
+## 🧭 Long-Term Direction
+
+I am developing toward work at the intersection of technical systems, operations, project delivery, customer enablement, and the space domain.
+
+My current areas of professional interest include mission operations, technical program management, customer engineering, and solutions engineering. The immediate focus, however, is building the knowledge, technical evidence, and project portfolio required to contribute meaningfully in those environments.
+
+## 📌 Pinned Projects
+
+The pinned repositories below document this path through completed work, active builds, research, and ongoing learning:
+
+- **Next Pass** — satellite-pass tracking extension published on the Chrome Web Store
+- **Orbital Thermal Bounds** — thermodynamics preprint, simulation package, and verification suites
+- **CircuitMess Rover Build Log** — hardware, firmware, sensors, and robotics experimentation
+- **Coworking with Claude** — documented human-managed AI workflow methodology
+- **Reading List** — books, technical foundations, and intellectual development
+
+## Get in Touch
+
+- **LinkedIn:** [My Profile](https://www.linkedin.com/in/dan-lee-odinson/)
+- **Email:** dan.lee.odinson [at] gmail dot com
 
 ---
 
 *Per aspera ad astra.*
+
 
 <img src="https://images-assets.nasa.gov/image/NHQ202211160002/NHQ202211160002~large.jpg?w=1920&h=1193&fit=clip&crop=faces%2Cfocalpoint" width="500">
