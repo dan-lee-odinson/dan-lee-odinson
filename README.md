@@ -31,11 +31,14 @@ Books and audiobooks. Astrophysics, the history of crewed spaceflight, modern ae
 Astronomy as a parallel study track, to deepen the domain context for the operations, systems, and program work the space industry actually depends on.
 Up next. Mission operations, technical program management, customer engineering, and solutions engineering roles at commercial space companies. An applied Systems Engineering or Engineering Management MS may follow the BS down the line — not a near-term commitment.
 
-Pinned projects. Below are the public artifacts of this path. Each one is a milestone — Next Pass live on the Chrome Web Store, the orbital thermal bounds preprint with its machine-verification suites, the build log for the CircuitMess rover, the coworking-with-claude methodology repository, and the reading list that documents the intellectual scaffolding.
-
 ## Pinned projects
 
-Below are the public artifacts of this path. Each one is a milestone: the build log for the CircuitMess rover, the first ROS 2 simulation, the first crater-detection model, eventually the autonomous Mars-analog rover that ties it all together.
+Below are the public artifacts of this path. Each one is a milestone:
+* Next Pass live on the Chrome Web Store,
+* the orbital thermal bounds preprint with its machine-verification suites,
+* the build log for the CircuitMess rover,
+* the coworking-with-claude methodology repository,
+* the reading list that documents the intellectual scaffolding.
 
 ## Get in touch
 
