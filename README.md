@@ -17,11 +17,11 @@ This GitHub documents that development through working projects, reproducible an
 I began the Bachelor of Science in Space Studies program at Everglades University in April 2026. I completed my first module, ASC 1100: Introduction to Aeronautics, in June 2026 with a 4.0 and am currently studying Aviation Law and Regulations.
 
 ### Applied Technical Projects
-
-- **CircuitMess NASA Mars Perseverance Rover:** An in-progress hardware platform built around an ESP32, AI-capable camera, six-wheel drive, and robotic arm. Customizations, experiments, and firmware modifications are documented here.
-- **Artemis Smartwatch:** A Python-based smartwatch project used to develop programming and hardware-integration skills.
-- **Next Pass:** A satellite-pass tracking Chrome extension published on the Chrome Web Store. It was developed during a seven-day AI-augmented sprint that turned an experimental workflow into a shipped product.
+- **RMPC Robotic Servicing Payload Concept:** Independent prospective team-formation project for NASA TechLeap’s Robotically Manipulated Payload Challenge. Focused on a compact ORU-style robotic servicing / manipulation validation payload concept involving grapple/release, relocation, alignment verification, reinstallation, inspection support, and simple power/data validation. Role: Project lead, application coordinator, systems organizer. Project page: https://dan-lee-odinson.github.io/rmpc-servicing-payload-concept/
 - **Orbital Thermal Bounds:** A thermodynamics preprint published on Zenodo with a DOI, supported by a Python simulation package and machine-verification suites.
+- **Next Pass:** A satellite-pass tracking Chrome extension published on the Chrome Web Store. It was developed during a seven-day AI-augmented sprint that turned an experimental workflow into a shipped product.
+- **Artemis Smartwatch:** A Python-based smartwatch project used to develop programming and hardware-integration skills.
+- **CircuitMess NASA Mars Perseverance Rover:** An in-progress hardware platform built around an ESP32, AI-capable camera, six-wheel drive, and robotic arm. Customizations, experiments, and firmware modifications are documented here.
 
 ### AI-Augmented Learning and Development
 
