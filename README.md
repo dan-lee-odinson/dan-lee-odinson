@@ -28,7 +28,7 @@ I am completing the Google Project Management Professional Certificate on Course
 - **Next Pass:** A satellite-pass tracking Chrome extension published on the Chrome Web Store. It was developed during a seven-day AI-augmented sprint that turned an experimental workflow into a shipped product.
 - **Agentic AI Affiliate Publishing Experiment:** — Built and managed a smart ring affiliate website using Claude Cowork, WordPress, web research, SEO workflows, affiliate integrations, and custom project instructions. Tested “AI passive income” claims against real-world constraints. Final result: ~$300 spend, $4.08 affiliate revenue, with major lessons in AI workflow management, verification, tooling limits, product research, and human-in-the-loop oversight.
 - **Artemis Smartwatch:** A Python-based smartwatch project used to develop programming and hardware-integration skills.
-- **CircuitMess NASA Mars Perseverance Rover:** An in-progress hardware platform built around an ESP32, AI-capable camera, six-wheel drive, and robotic arm. Customizations, experiments, and firmware modifications are documented here.
+
 
 ### AI-Augmented Learning and Development
 
