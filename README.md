@@ -16,7 +16,7 @@ This GitHub documents that development through working projects, reproducible an
 
 I began the Bachelor of Science in Space Studies program at Everglades University in April 2026. I completed my first module, ASC 1100: Introduction to Aeronautics, in June 2026 with a 4.0 and am currently studying Aviation Law and Regulations.
 
-## Professional Certifications
+### Professional Certifications
 
 I've started the Google Project Management Certification program on Coursera. It is a perfect fit for working professionals like myself, as I am looking to upgrade and formalize the skills I use on a daily basis, and obtain formalized training so that I can demonstrate that ability as I work towards my space industry trajectory. 
 
