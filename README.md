@@ -108,13 +108,24 @@ Member: AIAA · IEEE (Robotics & Automation Society; Aerospace & Electronic Syst
 
 ---
 
+## Attempted and closed
+
+**[RMPC Servicing Payload Concept](https://github.com/dan-lee-odinson/rmpc-servicing-payload-concept) — closed. No team assembled, no application submitted.**
+
+I developed an independent concept for an ORU-style robotic on-orbit servicing validation payload (grapple/release, relocation, alignment verification, inspection support), published a [concept page](https://dan-lee-odinson.github.io/rmpc-servicing-payload-concept/), and tried to recruit a team for NASA TechLeap's Robotically Manipulated Payload Challenge. **I failed to build the team in time and did not compete.**
+
+The lesson is a scheduling one, and it is the kind I would rather have learned here than on something that mattered: the concept was the easy part, and **recruiting was the binding constraint I did not treat as the critical path until it was too late.** An open call from an individual with no institutional backing, no funding, and no hardware track record is a weak offer to exactly the flight-hardware and environmental-test engineers a payload challenge needs. Those roles never filled. Next time: start from an existing group, secure one credible hardware lead *before* announcing, and back-plan the deadline from team formation rather than from the technical work.
+
+The concept brief and requirements notes stay published. *Not an official NASA, TechLeap, or Luminary Labs project.*
+
+---
+
 ## What's next
 
 Planned work, not accomplishments:
 
 - **External engineering review** of the Orbital Thermal Bounds Phase B transport and pressure claims. The model needs a qualified human reviewer, and until it has one, the repository says so.
 - **ROS 2 fundamentals**, then a rover build, then SLAM/perception and computer vision.
-- **[RMPC servicing payload concept](https://github.com/dan-lee-odinson/rmpc-servicing-payload-concept)** — an independent concept study for an ORU-style robotic on-orbit servicing validation payload (grapple/release, relocation, alignment verification, inspection support), written up as a [concept page](https://dan-lee-odinson.github.io/rmpc-servicing-payload-concept/). Team-forming toward a prospective NASA TechLeap application: no team recruited, no application submitted. Not an official NASA, TechLeap, or Luminary Labs project.
 
 ---
 
