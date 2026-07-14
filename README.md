@@ -82,11 +82,19 @@ Every artifact I publish names, in its own text, the claims it does not establis
 
 ## Operational track record
 
-**Eleven years in enterprise HCM implementation** — software delivery, project leadership, client enablement, requirements gathering, escalation handling, and technical support.
+**Eleven years in enterprise HCM implementation** — software delivery, project leadership, requirements analysis, escalation handling, and technical support. The number that matters is the **tempo**, not the total:
 
-I've since moved into an internal **SME support team**: triaging incoming issues, unblocking the consultants running live implementations, and owning the support queue.
+| | |
+|---|---|
+| **Throughput** | **20–35 client implementations per quarter**, sustained for three years |
+| **Concurrency** | **60-client active caseload**, held continuously for seven years |
+| **Volume** | ~150 implementations at HUB International, as sole technology specialist for the Northwest region |
 
-Triage under time pressure, escalation paths, unblocking operators mid-procedure — those are the transferable parts, not the domain. I have not done mission operations, and I am not going to claim that a support queue is the same thing as one.
+That is a continuous, high-tempo delivery load — not a sequence of one-off projects. It means the queue stays full and I don't fall over.
+
+I've since moved onto an internal **SME support team**: triaging incoming issues, unblocking the consultants running live implementations, and owning the support queue.
+
+Triage under time pressure, escalation paths, unblocking operators mid-procedure, sustained tempo under continuous load — those are the transferable parts, not the domain. I have not done mission operations, and I am not going to claim that a support queue is the same thing as one.
 
 `anomaly triage` · `escalation management` · `requirements analysis` · `technical program management`
 
