@@ -108,13 +108,17 @@ Member: AIAA · IEEE (Robotics & Automation Society; Aerospace & Electronic Syst
 
 ---
 
-## Attempted and closed
+## The first thing I couldn't do alone
 
-**[RMPC Servicing Payload Concept](https://github.com/dan-lee-odinson/rmpc-servicing-payload-concept) — closed. No team assembled, no application submitted.**
+**[RMPC Servicing Payload Concept](https://github.com/dan-lee-odinson/rmpc-servicing-payload-concept) — closed. No team assembled in time; no application submitted.**
 
-I developed an independent concept for an ORU-style robotic on-orbit servicing validation payload (grapple/release, relocation, alignment verification, inspection support), published a [concept page](https://dan-lee-odinson.github.io/rmpc-servicing-payload-concept/), and tried to recruit a team for NASA TechLeap's Robotically Manipulated Payload Challenge. **I failed to build the team in time and did not compete.**
+I developed an independent concept for an ORU-style robotic on-orbit servicing validation payload (grapple/release, relocation, alignment verification, inspection support), published a [concept page](https://dan-lee-odinson.github.io/rmpc-servicing-payload-concept/), and set out to recruit a team for NASA TechLeap's Robotically Manipulated Payload Challenge. I didn't get the team together before the deadline, so I didn't compete.
 
-The lesson is a scheduling one, and it is the kind I would rather have learned here than on something that mattered: the concept was the easy part, and **recruiting was the binding constraint I did not treat as the critical path until it was too late.** An open call from an individual with no institutional backing, no funding, and no hardware track record is a weak offer to exactly the flight-hardware and environmental-test engineers a payload challenge needs. Those roles never filled. Next time: start from an existing group, secure one credible hardware lead *before* announcing, and back-plan the deadline from team formation rather than from the technical work.
+It was a deliberate reach, and it found the ceiling of everything else on this page. **Every other project here is solo work accelerated by AI** — the extension, the thermal model, the simulations. A robotic servicing payload is not: it needs mechanical engineers, flight-hardware experience, environmental-test experience, fabrication. No amount of individual effort or AI leverage substitutes for people who have actually built and qualified hardware.
+
+So the finding wasn't about the payload. **I had built a portfolio and a method, but not yet the professional network that lets you convene a team against a deadline.** Team formation is its own discipline, and it runs on relationships you build *before* you need them.
+
+**Nobody pulls off a moonshot alone.** Apollo was four hundred thousand people. The whole reason I want this industry is to be part of *the teams* that support these missions — and this is the project that taught me that building the team is the work, not the overhead around it. What changes: build the network before the next deadline (AIAA, IEEE, university labs, makerspaces), start from an existing group rather than strangers, secure one credible hardware lead before announcing, and back-plan from team formation rather than the technical concept.
 
 The concept brief and requirements notes stay published. *Not an official NASA, TechLeap, or Luminary Labs project.*
 
