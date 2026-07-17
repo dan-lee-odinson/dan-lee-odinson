@@ -1,6 +1,6 @@
 # Dan Lee-Odinson
 
-**Enterprise implementation and technical operations professional moving into space systems.** Eleven years delivering enterprise software, triaging escalations, and unblocking the people who run the systems.
+**Technical Project & Systems Manager | Transitioning to Space Mission Operations and AI Systems Integration.** Eleven years delivering enterprise software, triaging escalations, and unblocking the people who run the systems.
 
 Three things I have actually done:
 
