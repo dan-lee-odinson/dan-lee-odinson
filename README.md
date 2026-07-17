@@ -136,6 +136,7 @@ The concept brief and requirements notes stay published. *Not an official NASA, 
 
 Planned work, not accomplishments:
 
+- **Codifying my Human-directed Multi Model AI Adversarial Workflow** into an open-source reproducible system that can be reviewed, attacked, and copied at scale.
 - **External engineering review** of the Orbital Thermal Bounds Phase B transport and pressure claims. The model needs a qualified human reviewer, and until it has one, the repository says so.
 - **ROS 2 fundamentals**, then a rover build, then SLAM/perception and computer vision.
 
