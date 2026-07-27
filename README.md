@@ -5,7 +5,7 @@
 Four things I have actually done:
 
 - **Shipped a product.** [Next Pass](https://chromewebstore.google.com/detail/next-pass/dffapmipddmkinnogkdkibjoellllhof), a satellite-pass tracking extension, is live on the Chrome Web Store at `v0.6.1` — developer account, store review, public listing, real users, and my name on it when it breaks.
-- **Found and corrected an error in someone else's published model.** Reproducing Andrew McCalip's open *Space Datacenters* orbital-radiator model, I found that its cosine-tilt view-factor heuristic underestimated the edge-on per-face Earth view factor by roughly **12×**. With exact tilted-plate-to-sphere geometry, the equilibrium temperature moves **+6.35 K** (335.75 K → 342.10 K). The correction, the derivation, and the verification script are published: [DOI 10.5281/zenodo.20695720](https://doi.org/10.5281/zenodo.20695720).
+- **Found and corrected an error in someone else's published model.** Reproducing Andrew McCalip's open *Space Datacenters* orbital-radiator model, I found that its cosine-tilt view-factor heuristic underestimated the edge-on per-face Earth view factor by roughly **12×**. With exact tilted-plate-to-sphere geometry, the equilibrium temperature moves **+6.35 K** (335.75 K → 342.10 K). The correction, the derivation, and the verification script are published: [DOI 10.5281/zenodo.20695720](https://doi.org/10.5281/zenodo.20695720). You can [check it in one file](https://gist.github.com/dan-lee-odinson/c004c47d1c04b6cad894a70f4b39eed5) — standard library only, no dependencies, runs in a tenth of a second, and asserts every published number.
 - **Found a false negative in my own safety instrument.** In an agent-economy simulation, the kill criterion that was supposed to detect runaway credit spirals passed every honest-behavior test and **missed genuine spirals**. It took four versions (v0–v3) before it held. I published that as the headline result.
 - **Published the process itself — and made it survive its own review.** [*The Process Is the Product*](https://doi.org/10.5281/zenodo.21512210) documents the human-directed, multi-model adversarial workflow behind everything on this page, and [adversarial-project-method](https://github.com/dan-lee-odinson/adversarial-project-method) ships it as a reusable framework with the complete thirteen-gate case record — **including the five consecutive failed gate reviews** that forced a standard of proof and a stopping rule. The failures are published on purpose.
 
@@ -56,7 +56,7 @@ Launched to r/ISS and r/amateursatellites. An SDR operator pointed out that seve
 
 ### [Orbital Thermal Bounds](https://github.com/dan-lee-odinson/orbital-thermal-bounds) — spacecraft thermal control
 
-*Python · Wolfram Language · GitHub Actions · `v1.1.0`*
+*Python · Wolfram Language · GitHub Actions · `v1.1.0` · [runnable single-file demo](https://gist.github.com/dan-lee-odinson/c004c47d1c04b6cad894a70f4b39eed5)*
 
 Thermodynamic bounds and mass-trade criteria for heat rejection in orbital data centers: analytic radiator-area bounds, an executable radiator simulation package, the **McCalip model reproduction and +6.35 K correction** described above, and a Phase B chip-to-radiator architecture trade-study framework. Closed-form bounds are derived symbolically in Wolfram Language and cross-checked against the numerical implementation; **CI/CD-enforced pytest suite, 259 passing tests**.
 
