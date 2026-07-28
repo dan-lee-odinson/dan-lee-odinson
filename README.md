@@ -160,8 +160,6 @@ Planned work, not accomplishments:
 
 ---
 
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=10&theme=default_repocard)](https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=10&theme=default_repocard)
-
 ## Where I'm headed
 
 Mission operations, ground segment and ground control operations, technical program management, systems engineering, and AI systems integration in the space sector.
@@ -169,3 +167,6 @@ Mission operations, ground segment and ground control operations, technical prog
 I am not claiming to be an astrophysicist or a flight-qualified engineer. I am claiming that I can direct rigorous technical work, verify it, publish it with its limits intact, and be accountable for it — and that the record above is checkable.
 
 **[LinkedIn](https://www.linkedin.com/in/dan-lee-odinson/)** · **[ORCID 0009-0009-9504-0796](https://orcid.org/0009-0009-9504-0796)** · dan.lee.odinson [at] gmail dot com
+
+
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=10&theme=default_repocard)](https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=10&theme=default_repocard)
