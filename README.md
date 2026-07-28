@@ -160,6 +160,8 @@ Planned work, not accomplishments:
 
 ---
 
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=10&theme=default_repocard)](https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=10&theme=default_repocard)
+
 ## Where I'm headed
 
 Mission operations, ground segment and ground control operations, technical program management, systems engineering, and AI systems integration in the space sector.
