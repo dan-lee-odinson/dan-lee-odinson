@@ -6,107 +6,135 @@
   />
 </p>
 
-## Eleven years delivering enterprise software, triaging escalations, and unblocking the people who run the systems.
-
-Four things I have actually done:
-
-- **Shipped a product.** [Next Pass](https://chromewebstore.google.com/detail/next-pass/dffapmipddmkinnogkdkibjoellllhof), a satellite-pass tracking extension, is live on the Chrome Web Store at `v0.6.1` — developer account, store review, public listing, real users, and my name on it when it breaks.
-- **Found and corrected an error in someone else's published model.** Reproducing Andrew McCalip's open *Space Datacenters* orbital-radiator model, I found that its cosine-tilt view-factor heuristic underestimated the edge-on per-face Earth view factor by roughly **12×**. With exact tilted-plate-to-sphere geometry, the equilibrium temperature moves **+6.35 K** (335.75 K → 342.10 K). The correction, the derivation, and the verification script are published: [DOI 10.5281/zenodo.20695720](https://doi.org/10.5281/zenodo.20695720).
-- **Found a false negative in my own safety instrument.** In an agent-economy simulation, the kill criterion that was supposed to detect runaway credit spirals passed every honest-behavior test and **missed genuine spirals**. It took four versions (v0–v3) before it held. I published that as the headline result.
-- **Published the process itself — and made it survive its own review.** [*The Process Is the Product*](https://doi.org/10.5281/zenodo.21512210) documents the human-directed, multi-model adversarial workflow behind everything on this page, and [adversarial-project-method](https://github.com/dan-lee-odinson/adversarial-project-method) ships it as a reusable framework with the complete thirteen-gate case record — **including the five consecutive failed gate reviews** that forced a standard of proof and a stopping rule. The failures are published on purpose.
-
-*Method, in one line:* I direct multi-model workflows — Claude drafts and builds, a second vendor's model is prompted to attack the output, and the workflow is human-in-the-loop by design. I diagnosed the false negative, I found the view-factor error, and I am accountable for every disposition. The method is now published and reusable: [preprint](https://doi.org/10.5281/zenodo.21512210) · [framework](https://github.com/dan-lee-odinson/adversarial-project-method).
-
-**ORCID:** [0009-0009-9504-0796](https://orcid.org/0009-0009-9504-0796) · **LinkedIn:** [dan-lee-odinson](https://www.linkedin.com/in/dan-lee-odinson/) · **Email:** dan.lee.odinson [at] gmail dot com
+<p align="center">
+  <a href="https://orcid.org/0009-0009-9504-0796"><img src="https://img.shields.io/badge/ORCID-0009--0009--9504--0796-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"></a>
+  <a href="https://www.linkedin.com/in/dan-lee-odinson/"><img src="https://img.shields.io/badge/LinkedIn-dan--lee--odinson-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:dan.lee.odinson@gmail.com"><img src="https://img.shields.io/badge/Email-dan.lee.odinson@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
 ---
 
-## Self-published technical record — preprints, not peer reviewed
+**Eleven years delivering enterprise software** — requirements, implementation, escalation triage, and unblocking the people who run live systems — now aimed at **mission operations, ground segment, and technical program management** in the space sector.
 
-Eleven DOI-archived Zenodo works — **nine preprints and two versioned software packages**, across twelve version DOIs — in four research programs. All ORCID-linked, all versioned, all reproducible. **No qualified human engineer has externally reviewed any of it.** That is the next thing I need, and I say so in the repositories themselves.
+I direct multi-model AI workflows to do rigorous technical work, then publish it *with its limits intact*: eleven DOI-archived Zenodo deposits across four research programs, all ORCID-linked, all reproducible. **No qualified human engineer has externally reviewed any of it** — I say so in the repositories themselves, because a portfolio that hides its gaps isn't evidence.
 
-| Program | Domain | Deposits |
-|---|---|---|
-| [**Adversarial Project Method**](https://github.com/dan-lee-odinson/adversarial-project-method) | Research governance · multi-model AI verification · configuration-controlled review | [The Process Is the Product `v1.0`](https://doi.org/10.5281/zenodo.21512210) |
-| [**Orbital Thermal Bounds**](https://github.com/dan-lee-odinson/orbital-thermal-bounds) | Spacecraft thermal control · heat rejection · radiator sizing | [Bounds preprint](https://doi.org/10.5281/zenodo.20650893) · [Edge-on geometry + McCalip correction](https://doi.org/10.5281/zenodo.20695720) · [AI1 design point (SpaceX)](https://doi.org/10.5281/zenodo.20670771) · [Software `v1.1.0`](https://doi.org/10.5281/zenodo.20709241) |
-| [**ISONOMIA / Path A**](https://github.com/dan-lee-odinson/isonomia-path-a) | Agent-based simulation · mechanism design · adversarial robustness | [Design paper](https://doi.org/10.5281/zenodo.21343917) · [Evidence release `v1.0.0`](https://doi.org/10.5281/zenodo.21287289) · [Docs release `v1.1.0`](https://doi.org/10.5281/zenodo.21348073) |
-| [**The Peership Corpus**](https://github.com/dan-lee-odinson/peership-corpus) | AI governance · constitutional design · research provenance | [I. Gods and Slaves](https://doi.org/10.5281/zenodo.21313987) · [II. Peership: A Framework](https://doi.org/10.5281/zenodo.21315519) · [III. The ISONOMIA Commons](https://doi.org/10.5281/zenodo.21343917) · [IV. Constitution, Not Cage](https://doi.org/10.5281/zenodo.21325361) · [V. The Peership Thesis](https://doi.org/10.5281/zenodo.21359124) |
-
-Paper III is cross-listed: it is the ISONOMIA design paper and corpus paper III, counted once.
+I'm not claiming to be a flight-qualified engineer. I'm claiming I can scope rigorous technical work, verify it, ship it, and be accountable for it — and that **every claim below is checkable**.
 
 ---
 
-## Selected work
+## Code & tooling
 
-### [Adversarial Project Method](https://github.com/dan-lee-odinson/adversarial-project-method) — the workflow, formalized and published
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Wolfram](https://img.shields.io/badge/Wolfram_Language-DD1100?style=flat-square&logo=wolframmathematica&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash%20%2F%20Linux-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white)
 
-*Framework `v1.0` · [preprint DOI](https://doi.org/10.5281/zenodo.21512210) · thirteen-gate frozen case record · CC BY 4.0 / Apache-2.0*
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions_CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Chrome Web Store](https://img.shields.io/badge/Chrome_Extension_APIs-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
 
-An evidence-gated review methodology for work that must survive hostile scrutiny before release. One human directs. One LLM builds. A second, separately run LLM attacks. Work moves through **gate reviews** against predefined acceptance criteria: the Builder freezes a hash-manifested packet (**configuration control** — the reviewer's findings are cryptographically bound to the exact bytes reviewed, so "which version did the reviewer inspect?" becomes unaskable), the Reviewer deposits findings as data rather than instructions, and the human Director **dispositions every finding** on a verbatim, signed record. A gate passes with zero unaccepted product blockers; convergence is declared by a **stopping rule** fixed before the findings are seen — never on exhaustion.
+**Python** is the primary language — simulation, numerical analysis, automation, test suites. Closed-form derivations in **Wolfram Language**, cross-checked against the numerical implementation. Everything ships with **CI/CD-enforced pytest** and versioned releases.
 
-The result that earns the paper is a failure mode with a name. Turned on its own tooling, the loop failed **five consecutive gates** (12, 11, 12, 12, 15 findings) because each fix closed the reviewer's named probe rather than the defect class behind it. The correction — every fix must demonstrate it addressed the class, every check must be witnessed failing before it is trusted — ended the streak, and it is the paper's most transferable result. The mechanisms are deliberate borrowings, named in the text: Stage-Gate reviews, Agile definition-of-done, test-driven development's red-before-green, maker-checker segregation of duties, and Lean stop-the-line — recomposed for one accountable human directing several AI systems.
+---
 
-`technical program management` · `gate reviews` · `configuration control` · `verification & validation` · `human-in-the-loop AI`
+## Selected projects
 
-### [Next Pass](https://chromewebstore.google.com/detail/next-pass/dffapmipddmkinnogkdkibjoellllhof) — shipped to the Chrome Web Store
+### 🛰️ [Orbital Thermal Bounds](https://github.com/dan-lee-odinson/orbital-thermal-bounds) — spacecraft thermal control
+`Python` · `Wolfram Language` · `GitHub Actions` · `v1.1.0` · **259 passing tests**
 
-*Published `v0.6.1` · built in short daily sprints · [build log](https://github.com/dan-lee-odinson/coworking-with-claude#project-3--next-pass-my-first-app)*
+Thermodynamic bounds and mass-trade criteria for heat rejection in orbital data centers: analytic radiator-area bounds, an executable radiator simulation package, and a Phase B chip-to-radiator architecture trade study.
 
-A glanceable countdown to the next visible ISS pass. Pass predictions come from the **N2YO API** — N2YO propagates the orbit, not me. What I built is the client: a 6-hour cache, graceful degradation when there is no key, location, or network, a background worker scheduling desktop notifications ahead of bright passes, and one-click calendar export (Google Calendar or `.ics`).
+**Found and corrected an error in someone else's published model.** Reproducing Andrew McCalip's open *Space Datacenters* orbital-radiator model, I found its cosine-tilt view-factor heuristic underestimated the edge-on per-face Earth view factor by roughly **12×**. With exact tilted-plate-to-sphere geometry, equilibrium temperature moves **+6.35 K** (335.75 K → 342.10 K). Correction, derivation, and verification script published: [DOI 10.5281/zenodo.20695720](https://doi.org/10.5281/zenodo.20695720).
 
-Scoped, tested, and launched by me — including the parts no agent can do: the developer account, the store submission, the listing, and standing behind it in public. The bugs that mattered were found by *using* the extension, never by reading the code.
-
-Launched to r/ISS and r/amateursatellites. An SDR operator pointed out that several satellites on the roadmap (NOAA weather sats) are decommissioned, and recommended the still-operational Meteor-M series instead. I updated the roadmap.
-
-`API integration` · `caching` · `graceful degradation` · `shipped product`
-
-### [Orbital Thermal Bounds](https://github.com/dan-lee-odinson/orbital-thermal-bounds) — spacecraft thermal control
-
-*Python · Wolfram Language · GitHub Actions · `v1.1.0`*
-
-Thermodynamic bounds and mass-trade criteria for heat rejection in orbital data centers: analytic radiator-area bounds, an executable radiator simulation package, the **McCalip model reproduction and +6.35 K correction** described above, and a Phase B chip-to-radiator architecture trade-study framework. Closed-form bounds are derived symbolically in Wolfram Language and cross-checked against the numerical implementation; **CI/CD-enforced pytest suite, 259 passing tests**.
-
-**Scope:** a reduced-order, **one-node** model. **Not validated against flown hardware.** **Not** intended for flight design, certification, or safety-critical decisions. Phase B's central transport and pressure claims have **not** been validated by a qualified external engineering reviewer.
+<sub>**Scope:** reduced-order, one-node model. Not validated against flown hardware. Not for flight design, certification, or safety-critical decisions.</sub>
 
 `spacecraft thermal control` · `radiator sizing` · `heat rejection` · `trade study`
 
-### [ISONOMIA — Path A](https://github.com/dan-lee-odinson/isonomia-path-a) — agent-based simulation
+---
 
-*Python · `v1.1.0` · evidence pinned to `v1.0.0` / commit `ba3ddb5`*
+### 📡 [Next Pass](https://chromewebstore.google.com/detail/next-pass/dffapmipddmkinnogkdkibjoellllhof) — shipped to the Chrome Web Store
+`JavaScript` · `Chrome Extension APIs` · `N2YO API` · published `v0.6.1`
 
-**The headline result is a failure.** I built a kill criterion — the safety instrument meant to detect a runaway credit spiral — inside an agent-economy simulation. It went through four versions (v0–v3) because it kept failing, and the interesting failure was v2: it passed honest noise cleanly and **missed genuine spirals**. A false negative on the instrument that exists to catch the failure. v0 halted every honest launch; v1 false-positived on honest shock transients (2,299 trips in 45,000 runs); v2's magnitude floor let real spirals through; v3 required active-agent normalization. The recorded lesson: *a kill criterion is itself a safety mechanism and must be adversarially tested in both directions — showing that honest behavior doesn't trip it is not enough.*
+A glanceable countdown to the next visible ISS pass. Pass predictions come from the **N2YO API** — N2YO propagates the orbit, not me. What I built is the client: a 6-hour cache, graceful degradation with no key / location / network, a background worker scheduling notifications ahead of bright passes, and one-click calendar export (Google Calendar or `.ics`).
 
-**Method:** 300 Latin-hypercube parameter samples × 50 seeds × 3 demand variants = **45,000-run sweeps**, plus a separate 45,000-run out-of-sample re-certification. Positive *and* negative control batteries. Seven scripted attack scenarios. CI calibration-lock, 73-test suite.
+Scoped, tested, and launched by me — including the parts no agent can do: developer account, store submission, public listing, and standing behind it when it breaks. Launched to r/ISS and r/amateursatellites; an SDR operator flagged that several roadmap satellites (NOAA weather sats) are decommissioned and recommended the still-operational Meteor-M series instead. Roadmap updated.
 
-**Limits:** results hold at **sampled points only**; no claim is made about unsampled points in the continuous parameter space. Nothing is live or production-validated.
-
-`agent-based modeling` · `Monte Carlo` · `Latin hypercube sampling` · `fault detection`
-
-### [Coworking with Claude](https://github.com/dan-lee-odinson/coworking-with-claude) — the working log, including what failed
-
-*Multi-model workflow practice · reusable skill libraries*
-
-How to direct agentic workflows, give them durable context, and stay accountable for the output. It carries the reusable skills behind the projects above.
-
-It also carries a **published negative result**. An agentic content-generation venture, run as a business experiment: **~$300 spent, $4.08 earned** — a 1.36% recovery, needing roughly **73× the revenue** just to break even. The pipeline worked; the business thesis did not. Conclusion, published rather than buried: *AI is a workflow accelerator, but "AI passive income" is a misleading frame — AI can build the machine, it does not create demand.*
+`API integration` · `caching` · `graceful degradation` · `shipped product`
 
 ---
 
-## The method — published as [adversarial-project-method](https://github.com/dan-lee-odinson/adversarial-project-method)
+### ⚙️ [Adversarial Project Method](https://github.com/dan-lee-odinson/adversarial-project-method) — verification methodology, published
+`Python` · framework `v1.0` · [preprint DOI](https://doi.org/10.5281/zenodo.21512210) · thirteen-gate frozen case record
 
-The workflow that produced everything above is now itself a published, reusable artifact: [*The Process Is the Product: A Human-Directed, Multi-Model Adversarial Workflow for Trustworthy AI-Assisted Research*](https://doi.org/10.5281/zenodo.21512210) (preprint, `v1.0`), plus the framework repository — the `METHOD.md` spec, packaging rules, templates, verification tools, deployment docs, and the frozen thirteen-gate case record of the method reviewing its own tooling.
+An evidence-gated review methodology for work that must survive hostile scrutiny before release. One human directs, one LLM builds, a second separately-run LLM attacks. Work moves through **gate reviews** against predefined acceptance criteria: the Builder freezes a hash-manifested packet (**configuration control** — findings are cryptographically bound to the exact bytes reviewed), the Reviewer deposits findings as data, and the human Director **dispositions every finding** on a signed record. A gate passes with zero unaccepted blockers; convergence is declared by a **stopping rule fixed before the findings are seen** — never on exhaustion.
 
-Claude drafts and builds; a second vendor's model is prompted to attack the result, and the attack prompts are published so a reader can verify the reviewer was told to attack rather than to bless. Nothing is accepted or rejected by a model — the workflow is **human-in-the-loop** by design and a human is accountable for every call.
+**The result that earns the paper is a failure.** Turned on its own tooling, the loop failed **five consecutive gates** (12, 11, 12, 12, 15 findings) because each fix closed the reviewer's named probe rather than the defect class behind it. The correction — every fix must demonstrate it addressed the class, every check must be witnessed failing before it is trusted — ended the streak. Published on purpose.
 
-Provenance is testable: DOI-versioned deposits with concept and exact-version identifiers kept distinct, SHA-256 checksums proving committed artifacts are byte-identical to their archival deposits, CI/CD-enforced pytest suites, evidence pinned to an exact release and commit hash. The Peership repository carries the fullest form of that apparatus — a 161-entry bibliographic database, a 70-claim provenance ledger recording each claim's source, evidentiary strength, and counterevidence, and per-paper adversarial reviews with their prompts published. Its first adversarial review returned **FAIL** and killed the draft's central claim; that claim is absent from the published paper.
+`technical program management` · `gate reviews` · `configuration control` · `verification & validation`
 
-Every artifact I publish names, in its own text, the claims it does not establish. That is not verification and validation. It is the precondition for it.
+---
+
+### 🔬 [ISONOMIA — Path A](https://github.com/dan-lee-odinson/isonomia-path-a) — agent-based simulation
+`Python` · `Monte Carlo` · `v1.1.0` · evidence pinned to commit `ba3ddb5` · 73-test suite
+
+**The headline result is a failure I found in my own safety instrument.** The kill criterion meant to detect a runaway credit spiral took four versions (v0–v3). v2 is the interesting one: it passed honest-noise tests cleanly and **missed genuine spirals** — a false negative on the instrument that exists to catch the failure.
+
+**Method:** 300 Latin-hypercube samples × 50 seeds × 3 demand variants = **45,000-run sweeps**, plus a separate 45,000-run out-of-sample re-certification, positive *and* negative control batteries, and seven scripted attack scenarios.
+
+**Recorded lesson:** *a kill criterion is itself a safety mechanism and must be adversarially tested in both directions — showing that honest behavior doesn't trip it is not enough.*
+
+<sub>**Limits:** results hold at sampled points only. Nothing is live or production-validated.</sub>
+
+`agent-based modeling` · `Monte Carlo` · `Latin hypercube sampling` · `fault detection`
+
+---
+
+### 🚀 [RMPC Servicing Payload Concept](https://github.com/dan-lee-odinson/rmpc-servicing-payload-concept) — closed, unsubmitted
+`HTML` · concept brief and requirements notes, published
+
+An independent concept for an ORU-style robotic on-orbit servicing validation payload, developed for NASA TechLeap's Robotically Manipulated Payload Challenge. **I didn't assemble a team before the deadline, so I didn't compete.**
+
+Every other project here is solo work accelerated by AI. A robotic servicing payload is not — it needs mechanical engineers, flight-hardware experience, environmental test, fabrication. **Nobody pulls off a moonshot alone; Apollo was four hundred thousand people.** The finding wasn't about the payload: I had built a portfolio and a method, but not yet the professional network that lets you convene a team against a deadline. *Building the team is the work, not the overhead around it.*
+
+<sub>Not an official NASA, TechLeap, or Luminary Labs project.</sub>
+
+---
+
+<details>
+<summary><b>📚 Full publication record</b> — 11 Zenodo deposits, 12 version DOIs, 4 programs (click to expand)</summary>
+
+<br>
+
+Nine preprints and two versioned software packages. All ORCID-linked, all versioned, all reproducible. **Preprints — not peer reviewed.**
+
+| Program | Domain | Deposits |
+|---|---|---|
+| [**Adversarial Project Method**](https://github.com/dan-lee-odinson/adversarial-project-method) | Research governance · multi-model AI verification | [The Process Is the Product `v1.0`](https://doi.org/10.5281/zenodo.21512210) |
+| [**Orbital Thermal Bounds**](https://github.com/dan-lee-odinson/orbital-thermal-bounds) | Spacecraft thermal control · heat rejection · radiator sizing | [Bounds preprint](https://doi.org/10.5281/zenodo.20650893) · [Edge-on geometry + McCalip correction](https://doi.org/10.5281/zenodo.20695720) · [AI1 design point](https://doi.org/10.5281/zenodo.20670771) · [Software `v1.1.0`](https://doi.org/10.5281/zenodo.20709241) |
+| [**ISONOMIA / Path A**](https://github.com/dan-lee-odinson/isonomia-path-a) | Agent-based simulation · mechanism design · adversarial robustness | [Design paper](https://doi.org/10.5281/zenodo.21343917) · [Evidence release `v1.0.0`](https://doi.org/10.5281/zenodo.21287289) · [Docs release `v1.1.0`](https://doi.org/10.5281/zenodo.21348073) |
+| [**The Peership Corpus**](https://github.com/dan-lee-odinson/peership-corpus) | AI governance · constitutional design · research provenance | [I. Gods and Slaves](https://doi.org/10.5281/zenodo.21313987) · [II. Peership: A Framework](https://doi.org/10.5281/zenodo.21315519) · [III. The ISONOMIA Commons](https://doi.org/10.5281/zenodo.21343917) · [IV. Constitution, Not Cage](https://doi.org/10.5281/zenodo.21325361) · [V. The Peership Thesis](https://doi.org/10.5281/zenodo.21359124) |
+
+<sub>Paper III is cross-listed — ISONOMIA design paper and corpus paper III, counted once.</sub>
+
+**Provenance is testable:** DOI-versioned deposits with concept and exact-version identifiers kept distinct, SHA-256 checksums proving committed artifacts are byte-identical to their archival deposits, CI/CD-enforced pytest suites, evidence pinned to exact release and commit hashes. The Peership repository carries a 161-entry bibliographic database and a 70-claim provenance ledger recording each claim's source, evidentiary strength, and counterevidence. Its first adversarial review returned **FAIL** and killed the draft's central claim; that claim is absent from the published paper.
+
+Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-with-claude) — the working log and reusable skill libraries, including a published negative result: an agentic content venture that spent **~$300 and earned $4.08**, needing ~73× the revenue to break even. *AI is a workflow accelerator; "AI passive income" is a misleading frame.*
+
+</details>
 
 ---
 
 ## Operational track record
 
-**Eleven years in enterprise HCM implementation** — software delivery, project leadership, requirements analysis, escalation handling, and technical support. The number that matters is the **tempo**, not the total:
+**Eleven years in enterprise HCM implementation** — software delivery, project leadership, requirements analysis, escalation handling, technical support. The number that matters is the **tempo**, not the total:
 
 | | |
 |---|---|
@@ -114,65 +142,42 @@ Every artifact I publish names, in its own text, the claims it does not establis
 | **Concurrency** | **60-client active caseload**, held continuously for seven years |
 | **Volume** | ~150 implementations at HUB International, as sole technology specialist for the Northwest region |
 
-That is a continuous, high-tempo delivery load — not a sequence of one-off projects. It means the queue stays full and I don't fall over.
+A continuous, high-tempo delivery load — not a sequence of one-off projects. The queue stays full and I don't fall over. I've since moved onto an internal **SME support team**: triaging incoming issues, unblocking consultants running live implementations, owning the support queue.
 
-I've since moved onto an internal **SME support team**: triaging incoming issues, unblocking the consultants running live implementations, and owning the support queue.
-
-Triage under time pressure, escalation paths, unblocking operators mid-procedure, sustained tempo under continuous load — those are the transferable parts, not the domain. I have not done mission operations, and I am not going to claim that a support queue is the same thing as one.
+Triage under time pressure, escalation paths, unblocking operators mid-procedure, sustained tempo under continuous load — those are the transferable parts, not the domain. I have not done mission operations, and I won't claim a support queue is the same thing.
 
 `anomaly triage` · `escalation management` · `requirements analysis` · `technical program management`
 
 ---
 
-## Continuing education
+## Education & certifications
 
-**B.S. Space Studies — Everglades University** (began April 2026; in progress). Currently in *Business Ethics*; upcoming: General Physics, GPS Surveying, Spacecraft Systems & Design.
+| | |
+|---|---|
+| 🎓 **A.A. Liberal Studies** | **Columbia College** — Sonora, CA · **2003** *(conferred)* |
+| 🛰️ **B.S. Space Studies** | **Everglades University** — Boca Raton, FL · *in progress*<br><sub>Began April 2026 · estimated completion **Spring 2029**. Current: Business Ethics. Upcoming: General Physics, GPS Surveying, Spacecraft Systems & Design.</sub> |
+| 📋 **Google Project Management Professional Certificate** | *in progress*<br><sub>Estimated completion **October 2026**</sub> |
+| 🐍 **freeCodeCamp Python Certification** | *in progress*<br><sub>Estimated completion **Spring 2027**</sub> |
+| ☁️ **AWS track** — Cloud Practitioner → SysOps → Advanced Networking | *in progress, via hands-on lab environments* |
 
-**Certifications.** Google Project Management Professional Certificate — in progress. AWS track (Cloud Practitioner → SysOps → Advanced Networking) via hands-on lab environments.
+**Professional memberships:** AIAA · IEEE (Robotics & Automation Society; Aerospace & Electronic Systems Society) · The Planetary Society
 
-**Programming and systems.** Python is the primary language — automation, simulation, data analysis. Supporting work in SQL, Bash/Linux, and cloud operations.
-
-**[Reading list](https://github.com/dan-lee-odinson/reading-list)** — spaceflight history, propulsion, autonomous systems, systems thinking, with a written reflection on each finished book.
-
-**[Artemis Smartwatch](https://github.com/dan-lee-odinson/circuitmess-artemis-smartwatch)** — ESP32 kit assembly underway; first embedded hardware project. Build log in progress; no code published yet.
-
-Member: AIAA · IEEE (Robotics & Automation Society; Aerospace & Electronic Systems Society) · The Planetary Society.
-
----
-
-## The first thing I couldn't do alone
-
-**[RMPC Servicing Payload Concept](https://github.com/dan-lee-odinson/rmpc-servicing-payload-concept) — closed. No team assembled in time; no application submitted.**
-
-I developed an independent concept for an ORU-style robotic on-orbit servicing validation payload (grapple/release, relocation, alignment verification, inspection support), published a [concept page](https://dan-lee-odinson.github.io/rmpc-servicing-payload-concept/), and set out to recruit a team for NASA TechLeap's Robotically Manipulated Payload Challenge. I didn't get the team together before the deadline, so I didn't compete.
-
-It was a deliberate reach, and it found the ceiling of everything else on this page. **Every other project here is solo work accelerated by AI** — the extension, the thermal model, the simulations. A robotic servicing payload is not: it needs mechanical engineers, flight-hardware experience, environmental-test experience, fabrication. No amount of individual effort or AI leverage substitutes for people who have actually built and qualified hardware.
-
-So the finding wasn't about the payload. **I had built a portfolio and a method, but not yet the professional network that lets you convene a team against a deadline.** Team formation is its own discipline, and it runs on relationships you build *before* you need them.
-
-**Nobody pulls off a moonshot alone.** Apollo was four hundred thousand people. The whole reason I want this industry is to be part of *the teams* that support these missions — and this is the project that taught me that building the team is the work, not the overhead around it. What changes: build the network before the next deadline (AIAA, IEEE, university labs, makerspaces), start from an existing group rather than strangers, secure one credible hardware lead before announcing, and back-plan from team formation rather than the technical concept.
-
-The concept brief and requirements notes stay published. *Not an official NASA, TechLeap, or Luminary Labs project.*
-
----
-
-## What's next
-
-Planned work, not accomplishments:
-
-- **Testing whether the method survives a team.** The paper names the experiments a single-operator case study cannot run: whether the Director / Builder / Reviewer role separation holds across multiple people, and whether the overhead is justified by measured error reduction against a lighter baseline. The framework is public so those experiments can be run against it — by me or by anyone.
-- **External engineering review** of the Orbital Thermal Bounds Phase B transport and pressure claims. The model needs a qualified human reviewer, and until it has one, the repository says so.
-- **ROS 2 fundamentals**, then a rover build, then SLAM/perception and computer vision.
+**Also building:** [Artemis Smartwatch](https://github.com/dan-lee-odinson/circuitmess-artemis-smartwatch) — ESP32 kit, first embedded hardware project · [Reading list](https://github.com/dan-lee-odinson/reading-list) — spaceflight history, propulsion, autonomous systems, with a written reflection on each finished book.
 
 ---
 
 ## Where I'm headed
 
-Mission operations, ground segment and ground control operations, technical program management, systems engineering, and AI systems integration in the space sector.
+**Mission operations · ground segment and ground control operations · technical program management · systems engineering · AI systems integration** — in the space sector.
 
-I am not claiming to be an astrophysicist or a flight-qualified engineer. I am claiming that I can direct rigorous technical work, verify it, publish it with its limits intact, and be accountable for it — and that the record above is checkable.
+**Next up:** external engineering review of the Orbital Thermal Bounds Phase B transport and pressure claims (the model needs a qualified human reviewer, and until it has one the repository says so) · ROS 2 fundamentals → rover build → SLAM/perception and computer vision.
 
-**[LinkedIn](https://www.linkedin.com/in/dan-lee-odinson/)** · **[ORCID 0009-0009-9504-0796](https://orcid.org/0009-0009-9504-0796)** · dan.lee.odinson [at] gmail dot com
+<p align="center">
+  <a href="https://orcid.org/0009-0009-9504-0796"><img src="https://img.shields.io/badge/ORCID-0009--0009--9504--0796-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"></a>
+  <a href="https://www.linkedin.com/in/dan-lee-odinson/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:dan.lee.odinson@gmail.com"><img src="https://img.shields.io/badge/Email-Get_in_touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
-
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=10&theme=default_repocard)](https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=10&theme=default_repocard)
+<p align="center">
+  <a href="https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=10&theme=default_repocard"><img src="https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=8&theme=default_repocard" alt="Top languages"></a>
+</p>
