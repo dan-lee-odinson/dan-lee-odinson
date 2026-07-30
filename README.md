@@ -16,9 +16,27 @@
 
 **Eleven years delivering enterprise software** — requirements, implementation, escalation triage, and unblocking the people who run live systems — now aimed at **mission operations, ground segment, and technical program management** in the space sector.
 
-I direct multi-model AI workflows to do rigorous technical work, then publish it *with its limits intact*: eleven DOI-archived Zenodo deposits across four research programs, all ORCID-linked, all reproducible. **No qualified human engineer has externally reviewed any of it** — I say so in the repositories themselves, because a portfolio that hides its gaps isn't evidence.
+I direct multi-model AI workflows to do rigorous technical work, then publish it *with its limits intact*: eleven DOI-archived Zenodo deposits across four research programs, all ORCID-linked, all reproducible. Self-published, reproducible technical work with explicit scope limits; qualified external engineering review is the next validation step.
 
 I'm not claiming to be a flight-qualified engineer. I'm claiming I can scope rigorous technical work, verify it, ship it, and be accountable for it — and that **every claim below is checkable**.
+
+---
+
+## Operational track record
+
+**Eleven years in enterprise HCM implementation** — software delivery, project leadership, requirements analysis, escalation handling, technical support. The number that matters is the **tempo**, not the total:
+
+| | |
+|---|---|
+| **Throughput** | **20–35 client implementations per quarter**, sustained for three years |
+| **Concurrency** | **60-client active caseload**, held continuously for seven years |
+| **Volume** | ~150 implementations at HUB International, as sole technology specialist for the Northwest region |
+
+A continuous, high-tempo delivery load — not a sequence of one-off projects. The queue stays full and I don't fall over. I've since moved onto an internal **SME support team**: triaging incoming issues, unblocking consultants running live implementations, owning the support queue.
+
+Triage under time pressure, escalation paths, unblocking operators mid-procedure, sustained tempo under continuous load — those are the transferable parts, not the domain. I have not done mission operations, and I won't claim a support queue is the same thing.
+
+`anomaly triage` · `escalation management` · `requirements analysis` · `technical program management`
 
 ---
 
@@ -41,7 +59,7 @@ I'm not claiming to be a flight-qualified engineer. I'm claiming I can scope rig
 ![Chrome Web Store](https://img.shields.io/badge/Chrome_Extension_APIs-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
 
-**Python** is the primary language — simulation, numerical analysis, automation, test suites. Closed-form derivations in **Wolfram Language**, cross-checked against the numerical implementation. Everything ships with **CI/CD-enforced pytest** and versioned releases.
+**Python** is the primary language — simulation, numerical analysis, automation, test suites. Closed-form derivations in **Wolfram Language**, cross-checked against the numerical implementation. My research software ships with **CI/CD-enforced pytest suites** and versioned releases..
 
 ---
 
@@ -129,24 +147,6 @@ Nine preprints and two versioned software packages. All ORCID-linked, all versio
 Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-with-claude) — the working log and reusable skill libraries, including a published negative result: an agentic content venture that spent **~$300 and earned $4.08**, needing ~73× the revenue to break even. *AI is a workflow accelerator; "AI passive income" is a misleading frame.*
 
 </details>
-
----
-
-## Operational track record
-
-**Eleven years in enterprise HCM implementation** — software delivery, project leadership, requirements analysis, escalation handling, technical support. The number that matters is the **tempo**, not the total:
-
-| | |
-|---|---|
-| **Throughput** | **20–35 client implementations per quarter**, sustained for three years |
-| **Concurrency** | **60-client active caseload**, held continuously for seven years |
-| **Volume** | ~150 implementations at HUB International, as sole technology specialist for the Northwest region |
-
-A continuous, high-tempo delivery load — not a sequence of one-off projects. The queue stays full and I don't fall over. I've since moved onto an internal **SME support team**: triaging incoming issues, unblocking consultants running live implementations, owning the support queue.
-
-Triage under time pressure, escalation paths, unblocking operators mid-procedure, sustained tempo under continuous load — those are the transferable parts, not the domain. I have not done mission operations, and I won't claim a support queue is the same thing.
-
-`anomaly triage` · `escalation management` · `requirements analysis` · `technical program management`
 
 ---
 
