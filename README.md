@@ -1,6 +1,8 @@
-# Dan Lee-Odinson
+[# Dan Lee-Odinson
 
-**Technical Program & Systems Manager | Transitioning to Space Mission Operations, Ground Segment / Ground Control, and AI Systems Integration.** Eleven years delivering enterprise software, triaging escalations, and unblocking the people who run the systems.
+**Technical Program & Systems Manager | Transitioning to Space Mission Operations, Ground Segment / Ground Control, and AI Systems Integration.** ](https://capsule-render.vercel.app/api?type=soft&height=200&color=gradient&text=Dan%20Lee-Odinson&reversal=true&fontSize=60&desc=Technical%20Program%20and%20Systems%20Manager%20|%20Building%20Towards%20Space%20Systems,%20Mission%20Ops,%20and%20AI%20Systems%20Integration&descSize=15&descAlign=50&descAlignY=70)
+
+# Eleven years delivering enterprise software, triaging escalations, and unblocking the people who run the systems.
 
 Four things I have actually done:
 
