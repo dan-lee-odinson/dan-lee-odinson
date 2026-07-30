@@ -28,7 +28,7 @@ I'm not claiming to be a flight-qualified engineer. I'm claiming I can scope rig
 
 | | |
 |---|---|
-| **Throughput** | **20–35 client implementations per quarter**, sustained for three years |
+| **Throughput** | **20–35 client implementations per quarter**, sustained for three years at VensureHR |
 | **Concurrency** | **60-client active caseload**, held continuously for seven years |
 | **Volume** | ~150 implementations at HUB International, as sole technology specialist for the Northwest region |
 
