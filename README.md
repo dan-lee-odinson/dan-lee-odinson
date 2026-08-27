@@ -201,5 +201,5 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 </p>
 
 <p align="center">
-  <a href="https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=10&theme=default_repocard"><img src="https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=8&theme=default_repocard" alt="Top languages"></a>
+  <a href="https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=10&theme=default_repocard"><img src="https://github-stats-extended.vercel.app/api/top-langs?username=dan-lee-odinson&langs_count=10&theme=default_repocard" alt="Top languages"></a>
 </p>
