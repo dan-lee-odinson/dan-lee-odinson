@@ -44,6 +44,7 @@ Triage under time pressure, escalation paths, unblocking operators mid-procedure
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
 ![Wolfram](https://img.shields.io/badge/Wolfram_Language-DD1100?style=flat-square&logo=wolframmathematica&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash%20%2F%20Linux-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
@@ -52,14 +53,18 @@ Triage under time pressure, escalation paths, unblocking operators mid-procedure
 ![HTML5](https://img.shields.io/badge/HTML%2FCSS-E34F26?style=flat-square&logo=html5&logoColor=white)
 
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![JUnit](https://img.shields.io/badge/JUnit-25A162?style=flat-square&logo=junit5&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions_CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Gradle](https://img.shields.io/badge/Gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
 ![Chrome Web Store](https://img.shields.io/badge/Chrome_Extension_APIs-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
 
-**Python** is the primary language — simulation, numerical analysis, automation, test suites. Closed-form derivations in **Wolfram Language**, cross-checked against the numerical implementation. My research software ships with **CI/CD-enforced pytest suites** and versioned releases..
+**Python** is the primary language — simulation, numerical analysis, automation, test suites. Closed-form derivations in **Wolfram Language**, cross-checked against the numerical implementation. **Kotlin** is the newest addition, picked up to build MUNINN on Android. My research software ships with **CI/CD-enforced pytest suites** and versioned releases.
 
 ---
 
@@ -86,6 +91,23 @@ A glanceable countdown to the next visible ISS pass. Pass predictions come from 
 Scoped, tested, and launched by me — including the parts no agent can do: developer account, store submission, public listing, and standing behind it when it breaks. Launched to r/ISS and r/amateursatellites; an SDR operator flagged that several roadmap satellites (NOAA weather sats) are decommissioned and recommended the still-operational Meteor-M series instead. Roadmap updated.
 
 `API integration` · `caching` · `graceful degradation` · `shipped product`
+
+---
+
+### 📱 [MUNINN](https://github.com/dan-lee-odinson/muninn) — mission ops vocabulary trainer
+`Kotlin` · `Jetpack Compose` · `Android 8.0+` · `v1.0.0` · 15 JUnit tests
+
+An Android trainer for the working vocabulary of spacecraft operations: **154 terms** across mission operations, ground systems, spacecraft systems, and operations management, played as a six-phase campaign that follows a mission's real life from pre-launch reviews through disposal and passivation. Each phase certifies on a 12-question exam (10 correct to pass) and unlocks the next. XP climbs a rank ladder lifted straight from a control room: **Trainee → Console Operator → Flight Controller → Ops Lead → Flight Director.**
+
+Wrong answers are drawn from the same domain as the right one, so the quiz drills the difference between neighboring concepts rather than the shape of the correct button. Game logic is plain Kotlin with no Android dependencies, covered by 15 JUnit tests. The content is one JSON file, so adding a term updates the quizzes and the phase counts at runtime. No permissions, no network, no accounts.
+
+**My first Kotlin and first Android build**, written because I wanted it to exist. In Norse myth Odin flies two ravens; Muninn is the one that carries memory. Vocabulary is the part of mission ops you can't reason your way through — either you know what an ORR is when someone says it, or you're behind for the rest of the meeting.
+
+**Knowing the words is not the job.** A console seat is earned in simulation runs and certification on live spacecraft, and this app provides neither. It teaches the floor.
+
+<sub>**Scope:** the definitions are written for study and carry no citations — a student's glossary, not a vetted reference. Not affiliated with any operator or agency.</sub>
+
+`mission operations` · `ground segment` · `Android development` · `self-directed study`
 
 ---
 
