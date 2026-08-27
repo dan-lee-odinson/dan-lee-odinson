@@ -1,8 +1,8 @@
 <p align="center">
   <img
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=soft&height=200&color=gradient&text=Dan%20Lee-Odinson&reversal=true&fontSize=60&desc=Technical%20Program%20and%20Systems%20Manager%20%7C%20Building%20Towards%20Space%20Systems%2C%20Mission%20Ops%2C%20and%20AI%20Systems%20Integration&descSize=15&descAlign=50&descAlignY=70"
-    alt="Dan Lee-Odinson — Technical Program and Systems Manager"
+    src="https://capsule-render.vercel.app/api?type=soft&height=200&color=gradient&text=Dan%20Lee-Odinson&reversal=true&fontSize=60&desc=Technical%20Program%20Management%20and%20Systems%20%7C%20Building%20Towards%20Space%20Systems%2C%20Mission%20Ops%2C%20and%20AI%20Systems%20Integration&descSize=15&descAlign=50&descAlignY=70"
+    alt="Dan Lee-Odinson — Technical Program Management and Systems"
   />
 </p>
 
@@ -177,7 +177,7 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 | | |
 |---|---|
 | 🎓 **A.A. Liberal Studies** | **Columbia College** — Sonora, CA · **2003** *(conferred)* |
-| 🛰️ **B.S. Space Studies** | **Everglades University** — Boca Raton, FL · *in progress*<br><sub>Began April 2026 · estimated completion **Spring 2029**. Current: Business Ethics. Upcoming: General Physics, GPS Surveying, Spacecraft Systems & Design.</sub> |
+| 🛰️ **B.S. Space Studies** | **Everglades University** — Boca Raton, FL · *in progress*<br><sub>Began April 2026 · estimated completion **Spring 2029**. Current: General Physics. Upcoming: Air Cargo, GPS Surveying, Spacecraft Systems & Design.</sub> |
 | 📋 **Google Project Management Professional Certificate** | *in progress*<br><sub>Estimated completion **October 2026**</sub> |
 | 🐍 **freeCodeCamp Python Certification** | *in progress*<br><sub>Estimated completion **Spring 2027**</sub> |
 | ☁️ **AWS track** — Cloud Practitioner → SysOps → Advanced Networking | *in progress, via hands-on lab environments* |
