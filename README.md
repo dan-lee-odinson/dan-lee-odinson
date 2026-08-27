@@ -105,7 +105,7 @@ Wrong answers are drawn from the same domain as the right one, so the quiz drill
 
 **Knowing the words is not the job.** A console seat is earned in simulation runs and certification on live spacecraft, and this app provides neither. It teaches the floor.
 
-<sub>**Scope:** the definitions are written for study and carry no citations — a student's glossary, not a vetted reference. Not affiliated with any operator or agency.</sub>
+<sub>**Scope:** definitions are original prose synthesized from the standard mission-ops literature — NASA SE Handbook, CCSDS, ECSS, and the ODMSP, all listed in the repo. A study aid, not a controlled glossary, and not affiliated with any operator or agency.</sub>
 
 `mission operations` · `ground segment` · `Android development` · `self-directed study`
 
