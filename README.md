@@ -178,8 +178,8 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 |---|---|
 | 🎓 **A.A. Liberal Studies** | **Columbia College** — Sonora, CA · **2003** *(conferred)* |
 | 🛰️ **B.S. Space Studies** | **Everglades University** — Boca Raton, FL · *in progress*<br><sub>Began April 2026 · estimated completion **Spring 2029**. Current: General Physics. Upcoming: Air Cargo, GPS Surveying, Spacecraft Systems & Design.</sub> |
-| 📋 **Google Project Management Professional Certificate** | *in progress*<br><sub>Estimated completion **October 2026**</sub> |
-| 🐍 **freeCodeCamp Python Certification** | *Completed **08/29/2026**</sub> |
+| 📋 **Google Project Management Professional Certificate** | **Completed** **08/31/2026**</sub> |
+| 🐍 **freeCodeCamp Python Certification** | **Completed** **08/29/2026**</sub> |
 | ☁️ **AWS track** — Cloud Practitioner → SysOps → Advanced Networking | *in progress, via hands-on lab environments* |
 
 **Professional memberships:** AIAA · IEEE (Robotics & Automation Society; Aerospace & Electronic Systems Society) · The Planetary Society
