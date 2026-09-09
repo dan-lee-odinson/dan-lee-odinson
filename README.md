@@ -94,6 +94,25 @@ Scoped, tested, and launched by me — including the parts no agent can do: deve
 
 ---
 
+### 🎛️ [Failure is Not an Option](https://finaogame.com/) — playable flight director game
+`TypeScript` · `HTML/CSS` · `Vite` · `GitHub Pages` · **Free browser demo**
+
+A narrative game about the people, decisions, and responsibility of Mission Control. The first playable scenario is inspired by **Gemini VIII**: choose supplemental ground rehearsals, question your controllers, weigh incomplete reports, and make a return decision whose consequences carry into the debrief, relationships, and preparation for the next mission.
+
+**My role spans the whole delivery:** concept, scope, historical research, narrative and art direction, multi-model AI coordination, playtesting, and release decisions. I direct the work across Claude and Codex, review the results, and own what ships. The game combines illustrated 2D scenes, Apollo-inspired controls, an original soundtrack, and a deterministic simulation with replay verification. Historical sources and fictional departures are documented rather than blended into an implied reconstruction.
+
+One playtest exposed a design failure: the Procedures Binder revealed mission information before the player encountered it. The resulting rule now governs the Binder, Evidence, and History: **nothing appears before it is encountered in play, and every addition is visibly announced.** A small example of translating player feedback into a clear requirement and a verified change.
+
+**Available now:** one Gemini VIII demo, ending with a Gemini IX-A preparation plan. **Long-term vision:** a campaign from Gemini toward Artemis, with decisions carrying across missions. The full campaign is in development; no release date is announced.
+
+**[Play the demo](https://finaogame.com/demo/)** · [Source code](https://github.com/dan-lee-odinson/failure-is-not-an-option)
+
+<sub>**Scope:** an independent, non-commercial game, not operational training or a flight-qualified simulator. Created using generative AI with human creative direction, review, and final decision-making. Not affiliated with, authorized, sponsored, or endorsed by NASA. Code: MIT; original content: CC BY 4.0, subject to the repository's licence terms and third-party exceptions.</sub>
+
+`interactive systems` · `historical research` · `requirements & acceptance testing` · `AI-directed delivery` · `shipped product`
+
+---
+
 ### 📱 [MUNINN](https://github.com/dan-lee-odinson/muninn) — mission ops vocabulary trainer
 `Kotlin` · `Jetpack Compose` · `Android 8.0+` · `v1.0.0` · 15 JUnit tests
 
@@ -179,7 +198,7 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 | 🎓 **A.A. Liberal Studies** | **Columbia College** — Sonora, CA · **2003** *(conferred)* |
 | 🛰️ **B.S. Space Studies** | **Everglades University** — Boca Raton, FL · *in progress*<br><sub>Began April 2026 · estimated completion **Spring 2029**. Current: General Physics. Upcoming: Air Cargo, GPS Surveying, Spacecraft Systems & Design.</sub> |
 | 📋 **Google Project Management Professional Certificate** | **Completed** **08/31/2026**</sub> |
-| 🐍 **freeCodeCamp Python Certification** | **Completed** **08/29/2026**</sub> |
+| 🐍 **freeCodeCamp Python Developer Certification** | **Completed** **08/29/2026**</sub> |
 | ☁️ **AWS track** — Cloud Practitioner → SysOps → Advanced Networking | *in progress, via hands-on lab environments* |
 
 **Professional memberships:** AIAA · IEEE (Robotics & Automation Society; Aerospace & Electronic Systems Society) · The Planetary Society
