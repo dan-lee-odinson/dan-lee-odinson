@@ -113,6 +113,25 @@ One playtest exposed a design failure: the Procedures Binder revealed mission in
 
 ---
 
+### 🚀 [Shuttle Explorer](https://shuttleexplorer.com/) — interactive Discovery and STS-26
+`JavaScript` · `three.js` · `WebGL` · `Blender` · `GitHub Pages` · **Live site**
+
+STS-26 was the first launch I watched, at six years old. Discovery flying again on September 29, 1988, thirty-two months after Challenger. This is that vehicle and that mission in a browser: rotate and zoom the spacecraft, pull the assemblies apart and put them back, and switch between the launch stack, the orbiter alone, and Discovery riding NASA 905, the Boeing 747 Shuttle Carrier Aircraft.
+
+Open the payload bay and deploy an illustrative Canadarm. Go inside a reconstructed crew cabin with the flight deck and middeck labeled. Take a main engine apart in assembled, cutaway, and separate-parts views. Four reading pages carry the mission history, the five veterans who flew it, why STS-26 stayed with me, and the source credits.
+
+No build step, no backend, no account, no API key. Models, textures, and the Draco decoder all ship with the site. It's static files on GitHub Pages.
+
+**Every asset's provenance is checkable.** Each one has a row in [`ASSET-LICENSE-MAP.csv`](https://github.com/dan-lee-odinson/shuttle-explorer/blob/main/ASSET-LICENSE-MAP.csv) naming its source and its rights boundary, and a `PACKAGE-MANIFEST.sha256` hashes all 99 files. When the STS-26 patch's origin was unclear, the repository recorded the gap instead of inventing a source. Once the origin was known I verified it, confirming the shipped image byte-identical to the Wikimedia Commons original by SHA-256 before writing the notice. Public domain covers NASA's copyright there. Insignia use is still restricted under 14 CFR 1221, and the notices say so.
+
+**[Explore it](https://shuttleexplorer.com/)** · [Source code](https://github.com/dan-lee-odinson/shuttle-explorer)
+
+<sub>**Scope:** an educational visual reconstruction, not flight software, validated engineering CAD, a training system, or a physics simulation. Geometry, materials, markings, mechanisms, and separation paths are approximations, and some cabin and engine references depict later configurations. Built with AI assistance under my direction and review. Not affiliated with, authorized, sponsored, or endorsed by NASA. Code: MIT; original art and writing: CC BY 4.0, subject to the repository's licence terms and third-party exceptions.</sub>
+
+`WebGL` · `3D reconstruction` · `historical research` · `asset provenance` · `shipped product`
+
+---
+
 ### 📱 [MUNINN](https://github.com/dan-lee-odinson/muninn) — mission ops vocabulary trainer
 `Kotlin` · `Jetpack Compose` · `Android 8.0+` · `v1.0.0` · 15 JUnit tests
 
@@ -153,17 +172,6 @@ An evidence-gated review methodology for work that must survive hostile scrutiny
 <sub>**Limits:** results hold at sampled points only. Nothing is live or production-validated.</sub>
 
 `agent-based modeling` · `Monte Carlo` · `Latin hypercube sampling` · `fault detection`
-
----
-
-### 🚀 [RMPC Servicing Payload Concept](https://github.com/dan-lee-odinson/rmpc-servicing-payload-concept) — closed, unsubmitted
-`HTML` · concept brief and requirements notes, published
-
-An independent concept for an ORU-style robotic on-orbit servicing validation payload, developed for NASA TechLeap's Robotically Manipulated Payload Challenge. **I didn't assemble a team before the deadline, so I didn't compete.**
-
-Every other project here is solo work accelerated by AI. A robotic servicing payload is not — it needs mechanical engineers, flight-hardware experience, environmental test, fabrication. **Nobody pulls off a moonshot alone; Apollo was four hundred thousand people.** The finding wasn't about the payload: I had built a portfolio and a method, but not yet the professional network that lets you convene a team against a deadline. *Building the team is the work, not the overhead around it.*
-
-<sub>Not an official NASA, TechLeap, or Luminary Labs project.</sub>
 
 ---
 
