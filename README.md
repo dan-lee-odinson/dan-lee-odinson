@@ -113,7 +113,7 @@ One playtest exposed a design failure: the Procedures Binder revealed mission in
 
 ---
 
-### 🚀 [Shuttle Explorer](https://shuttleexplorer.com/) — interactive Discovery and STS-26
+### 🚀 [Shuttle Explorer](https://shuttleexplorer.com/) — interactive Discovery STS-26
 `JavaScript` · `three.js` · `WebGL` · `Blender` · `GitHub Pages` · **Live site**
 
 STS-26 was the first launch I watched, at six years old. Discovery flying again on September 29, 1988, thirty-two months after Challenger. This is that vehicle and that mission in a browser: rotate and zoom the spacecraft, pull the assemblies apart and put them back, and switch between the launch stack, the orbiter alone, and Discovery riding NASA 905, the Boeing 747 Shuttle Carrier Aircraft.
