@@ -16,9 +16,9 @@
 
 **Eleven years delivering enterprise software** — requirements, implementation, escalation triage, and unblocking the people who run live systems — now aimed at **mission operations, ground segment, and technical program management** in the space sector.
 
-I direct multi-model AI workflows to do rigorous technical work, then publish it *with its limits intact*: eleven DOI-archived Zenodo deposits across four research programs, all ORCID-linked, all reproducible. Self-published, reproducible technical work with explicit scope limits; qualified external engineering review is the next validation step.
+I direct multi-model AI workflows to do rigorous technical work, then publish it *with its limits intact*: twelve DOI-archived Zenodo deposits across four research programs, all ORCID-linked, all reproducible. Self-published, reproducible technical work with explicit scope limits; qualified external engineering review is the next validation step.
 
-I'm not claiming to be a flight-qualified engineer. I'm claiming I can scope rigorous technical work, verify it, ship it, and be accountable for it — and that **every claim below is checkable**.
+I scope rigorous technical work, verify it, ship it, and stand behind it. **Every claim below is checkable.**
 
 ---
 
@@ -34,7 +34,7 @@ I'm not claiming to be a flight-qualified engineer. I'm claiming I can scope rig
 
 A continuous, high-tempo delivery load — not a sequence of one-off projects. The queue stays full and I don't fall over. I've since moved onto an internal **SME support team**: triaging incoming issues, unblocking consultants running live implementations, owning the support queue.
 
-Triage under time pressure, escalation paths, unblocking operators mid-procedure, sustained tempo under continuous load — those are the transferable parts, not the domain. I have not done mission operations, and I won't claim a support queue is the same thing.
+What transfers is the tempo: triage under time pressure, escalation paths, unblocking operators mid-procedure, sustained load without a break in it. The domain is what the rest of this page is for.
 
 `anomaly triage` · `escalation management` · `requirements analysis` · `technical program management`
 
@@ -75,7 +75,7 @@ Triage under time pressure, escalation paths, unblocking operators mid-procedure
 
 Thermodynamic bounds and mass-trade criteria for heat rejection in orbital data centers: analytic radiator-area bounds, an executable radiator simulation package, and a Phase B chip-to-radiator architecture trade study.
 
-**Found and corrected an error in someone else's published model.** Reproducing Andrew McCalip's open *Space Datacenters* orbital-radiator model, I found its cosine-tilt view-factor heuristic underestimated the edge-on per-face Earth view factor by roughly **12×**. With exact tilted-plate-to-sphere geometry, equilibrium temperature moves **+6.35 K** (335.75 K → 342.10 K). Correction, derivation, and verification script published: [DOI 10.5281/zenodo.20695720](https://doi.org/10.5281/zenodo.20695720).
+**Found and corrected an error in someone else's published model.** Reproducing Andrew McCalip's open *Space Datacenters* orbital-radiator model, I found its cosine-tilt view-factor heuristic underestimated the edge-on per-face Earth view factor by roughly **12×**. With exact tilted-plate-to-sphere geometry, equilibrium temperature moves **+6.35 K** (335.75 K → 342.10 K). Correction, derivation, and verification script published: [DOI 10.5281/zenodo.20695719](https://doi.org/10.5281/zenodo.20695719).
 
 <sub>**Scope:** reduced-order, one-node model. Not validated against flown hardware. Not for flight design, certification, or safety-critical decisions.</sub>
 
@@ -122,7 +122,7 @@ Open the payload bay and deploy an illustrative Canadarm. Go inside a reconstruc
 
 No build step, no backend, no account, no API key. Models, textures, and the Draco decoder all ship with the site. It's static files on GitHub Pages.
 
-**Every asset's provenance is checkable.** Each one has a row in [`ASSET-LICENSE-MAP.csv`](https://github.com/dan-lee-odinson/shuttle-explorer/blob/main/ASSET-LICENSE-MAP.csv) naming its source and its rights boundary, and a `PACKAGE-MANIFEST.sha256` hashes all 99 files. When the STS-26 patch's origin was unclear, the repository recorded the gap instead of inventing a source. Once the origin was known I verified it, confirming the shipped image byte-identical to the Wikimedia Commons original by SHA-256 before writing the notice. Public domain covers NASA's copyright there. Insignia use is still restricted under 14 CFR 1221, and the notices say so.
+**Every asset's provenance is checkable.** Each one has a row in [`ASSET-LICENSE-MAP.csv`](https://github.com/dan-lee-odinson/shuttle-explorer/blob/main/ASSET-LICENSE-MAP.csv) naming its source and its rights boundary, and a `PACKAGE-MANIFEST.sha256` hashes all 99 files. The STS-26 patch is the one asset whose rights split two ways. It is public domain in the United States, having been created solely by NASA, and insignia use is restricted under 14 CFR 1221 independently of copyright, which the notices say. The asset map carries its Commons source, the hash of the full-resolution original, and the hash of the downscaled copy that ships here.
 
 **[Explore it](https://shuttleexplorer.com/)** · [Source code](https://github.com/dan-lee-odinson/shuttle-explorer)
 
@@ -150,7 +150,7 @@ Wrong answers are drawn from the same domain as the right one, so the quiz drill
 ---
 
 ### ⚙️ [Adversarial Project Method](https://github.com/dan-lee-odinson/adversarial-project-method) — verification methodology, published
-`Python` · framework `v1.0` · [preprint DOI](https://doi.org/10.5281/zenodo.21512210) · thirteen-gate frozen case record
+`Python` · framework `v1.0` · [preprint DOI](https://doi.org/10.5281/zenodo.21512209) · thirteen-gate frozen case record
 
 An evidence-gated review methodology for work that must survive hostile scrutiny before release. One human directs, one LLM builds, a second separately-run LLM attacks. Work moves through **gate reviews** against predefined acceptance criteria: the Builder freezes a hash-manifested packet (**configuration control** — findings are cryptographically bound to the exact bytes reviewed), the Reviewer deposits findings as data, and the human Director **dispositions every finding** on a signed record. A gate passes with zero unaccepted blockers; convergence is declared by a **stopping rule fixed before the findings are seen** — never on exhaustion.
 
@@ -176,18 +176,18 @@ An evidence-gated review methodology for work that must survive hostile scrutiny
 ---
 
 <details>
-<summary><b>📚 Full publication record</b> — 11 Zenodo deposits, 12 version DOIs, 4 programs (click to expand)</summary>
+<summary><b>📚 Full publication record</b> — 12 Zenodo deposits, 18 versions, 4 programs (click to expand)</summary>
 
 <br>
 
-Nine preprints and two versioned software packages. All ORCID-linked, all versioned, all reproducible. **Preprints — not peer reviewed.**
+Nine preprints and three versioned software packages. All ORCID-linked, all versioned, all reproducible.
 
 | Program | Domain | Deposits |
 |---|---|---|
-| [**Adversarial Project Method**](https://github.com/dan-lee-odinson/adversarial-project-method) | Research governance · multi-model AI verification | [The Process Is the Product `v1.0`](https://doi.org/10.5281/zenodo.21512210) |
-| [**Orbital Thermal Bounds**](https://github.com/dan-lee-odinson/orbital-thermal-bounds) | Spacecraft thermal control · heat rejection · radiator sizing | [Bounds preprint](https://doi.org/10.5281/zenodo.20650893) · [Edge-on geometry + McCalip correction](https://doi.org/10.5281/zenodo.20695720) · [AI1 design point](https://doi.org/10.5281/zenodo.20670771) · [Software `v1.1.0`](https://doi.org/10.5281/zenodo.20709241) |
-| [**ISONOMIA / Path A**](https://github.com/dan-lee-odinson/isonomia-path-a) | Agent-based simulation · mechanism design · adversarial robustness | [Design paper](https://doi.org/10.5281/zenodo.21343917) · [Evidence release `v1.0.0`](https://doi.org/10.5281/zenodo.21287289) · [Docs release `v1.1.0`](https://doi.org/10.5281/zenodo.21348073) |
-| [**The Peership Corpus**](https://github.com/dan-lee-odinson/peership-corpus) | AI governance · constitutional design · research provenance | [I. Gods and Slaves](https://doi.org/10.5281/zenodo.21313987) · [II. Peership: A Framework](https://doi.org/10.5281/zenodo.21315519) · [III. The ISONOMIA Commons](https://doi.org/10.5281/zenodo.21343917) · [IV. Constitution, Not Cage](https://doi.org/10.5281/zenodo.21325361) · [V. The Peership Thesis](https://doi.org/10.5281/zenodo.21359124) |
+| [**Adversarial Project Method**](https://github.com/dan-lee-odinson/adversarial-project-method) | Research governance · multi-model AI verification | [The Process Is the Product](https://doi.org/10.5281/zenodo.21512209) · [Software `v1.0.0`](https://doi.org/10.5281/zenodo.21536231) |
+| [**Orbital Thermal Bounds**](https://github.com/dan-lee-odinson/orbital-thermal-bounds) | Spacecraft thermal control · heat rejection · radiator sizing | [Bounds preprint](https://doi.org/10.5281/zenodo.20650893) · [Edge-on geometry + McCalip correction](https://doi.org/10.5281/zenodo.20695719) · [AI1 design point](https://doi.org/10.5281/zenodo.20670771) · [Software `v1.1.0`](https://doi.org/10.5281/zenodo.20709241) |
+| [**ISONOMIA / Path A**](https://github.com/dan-lee-odinson/isonomia-path-a) | Agent-based simulation · mechanism design · adversarial robustness | [Design paper](https://doi.org/10.5281/zenodo.21338479) · [Software `v1.1.0`](https://doi.org/10.5281/zenodo.21287288) |
+| [**The Peership Corpus**](https://github.com/dan-lee-odinson/peership-corpus) | AI governance · constitutional design · research provenance | [I. Gods and Slaves](https://doi.org/10.5281/zenodo.21313986) · [II. Peership: A Framework](https://doi.org/10.5281/zenodo.21315518) · [III. The ISONOMIA Commons](https://doi.org/10.5281/zenodo.21338479) · [IV. Constitution, Not Cage](https://doi.org/10.5281/zenodo.21325360) · [V. The Peership Thesis](https://doi.org/10.5281/zenodo.21359123) |
 
 <sub>Paper III is cross-listed — ISONOMIA design paper and corpus paper III, counted once.</sub>
 
@@ -199,17 +199,24 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 
 ---
 
-## Education & certifications
+## Education & training
 
 | | |
 |---|---|
 | 🎓 **A.A. Liberal Studies** | **Columbia College** — Sonora, CA · **2003** *(conferred)* |
-| 🛰️ **B.S. Space Studies** | **Everglades University** — Boca Raton, FL · *in progress*<br><sub>Began April 2026 · estimated completion **Spring 2029**. Current: General Physics. Upcoming: Air Cargo, GPS Surveying, Spacecraft Systems & Design.</sub> |
-| 📋 **Google Project Management Professional Certificate** | **Completed** **08/31/2026**</sub> |
-| 🐍 **freeCodeCamp Python Developer Certification** | **Completed** **08/29/2026**</sub> |
-| ☁️ **AWS track** — Cloud Practitioner → SysOps → Advanced Networking | *in progress, via hands-on lab environments* |
+| 🛰️ **B.S. Space Studies** | **Everglades University** — Boca Raton, FL · *in progress*<br><sub>Began April 2026 · **36 of 120 credits, 4.0 GPA** · estimated completion **Spring 2029**. Current: AVM 2120 Air Cargo. Upcoming: GPS Surveying, Spacecraft Systems & Design.</sub> |
 
-**Professional memberships:** AIAA · IEEE (Robotics & Automation Society; Aerospace & Electronic Systems Society) · The Planetary Society
+**Completed training**
+
+| | |
+|---|---|
+| 📋 **Google Project Management Professional Certificate** | Completed **31 August 2026** · seven courses, including Agile Project Management |
+| 🐍 **freeCodeCamp Python Developer Certification** | Completed **29 August 2026** · roughly 300 hours across five projects that had to pass automated tests |
+| 🛰️ **NASA ARSET — Fundamentals of Remote Sensing** | Certificate of completion, **6 September 2026** · NASA's certificate records participation in the training |
+
+**In progress:** UNSW *Introduction to Systems Engineering* (Coursera) · NASA *Open Science 101* and *Open Science Essentials*, enrolled 15 September 2026
+
+**Professional memberships:** AIAA *(student)* · IEEE *(student; Robotics & Automation Society, Aerospace & Electronic Systems Society)* · INCOSE *(student)* · National Space Club Florida Committee *(student)* · The Planetary Society
 
 **Also building:** [Artemis Smartwatch](https://github.com/dan-lee-odinson/circuitmess-artemis-smartwatch) — ESP32 kit, first embedded hardware project · [Reading list](https://github.com/dan-lee-odinson/reading-list) — spaceflight history, propulsion, autonomous systems, with a written reflection on each finished book.
 
@@ -219,7 +226,7 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 
 **Mission operations · ground segment and ground control operations · technical program management · systems engineering · AI systems integration** — in the space sector.
 
-**Next up:** external engineering review of the Orbital Thermal Bounds Phase B transport and pressure claims (the model needs a qualified human reviewer, and until it has one the repository says so) · OpenC3 COSMOS training · Amateur Space Program Design
+**Next up:** external engineering review of the Orbital Thermal Bounds Phase B transport and pressure claims (the model needs a qualified human reviewer, and until it has one the repository says so) · INCOSE ASEP · FCC Amateur Radio Technician · Amateur Space Program Design
 
 <p align="center">
   <a href="https://orcid.org/0009-0009-9504-0796"><img src="https://img.shields.io/badge/ORCID-0009--0009--9504--0796-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"></a>
