@@ -122,7 +122,7 @@ Open the payload bay and deploy an illustrative Canadarm. Go inside a reconstruc
 
 No build step, no backend, no account, no API key. Models, textures, and the Draco decoder all ship with the site. It's static files on GitHub Pages.
 
-**Every asset's provenance is checkable.** Each one has a row in [`ASSET-LICENSE-MAP.csv`](https://github.com/dan-lee-odinson/shuttle-explorer/blob/main/ASSET-LICENSE-MAP.csv) naming its source and its rights boundary, and a `PACKAGE-MANIFEST.sha256` hashes all 99 files. The STS-26 patch is the one asset whose rights split two ways. It is public domain in the United States, having been created solely by NASA, and insignia use is restricted under 14 CFR 1221 independently of copyright, which the notices say. The asset map carries its Commons source, the hash of the full-resolution original, and the hash of the downscaled copy that ships here.
+**Every asset's provenance is checkable.** Each one has a row in [`ASSET-LICENSE-MAP.csv`](https://github.com/dan-lee-odinson/shuttle-explorer/blob/main/ASSET-LICENSE-MAP.csv) naming its source and its rights boundary, and a `PACKAGE-MANIFEST.sha256` hashes all 98 files. The STS-26 patch is the one asset whose rights split two ways. It is public domain in the United States, having been created solely by NASA, and insignia use is restricted under 14 CFR 1221 independently of copyright, which the notices say. The asset map carries its Commons source, the hash of the full-resolution original, and the hash of the downscaled copy that ships here.
 
 **[Explore it](https://shuttleexplorer.com/)** · [Source code](https://github.com/dan-lee-odinson/shuttle-explorer)
 
