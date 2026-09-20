@@ -212,7 +212,7 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 
 | | |
 |---|---|
-| 📋 **Google Project Management Professional Certificate** | Completed **31 August 2026** · seven courses, including Agile Project Management |
+| 📋 **Google Project Management Professional Certificate** | Completed **31 August 2026** · seven courses, including Agile Project Management · [verify](https://coursera.org/verify/professional-cert/Y42O0F5R8RHD) |
 | 🐍 **freeCodeCamp Python Developer Certification** | Completed **29 August 2026** · roughly 300 hours across five projects that had to pass automated tests |
 | 🛰️ **NASA ARSET — Fundamentals of Remote Sensing** | Certificate of completion, **6 September 2026** · NASA's certificate records participation in the training |
 | ⚙️ **UNSW Sydney — Introduction to Systems Engineering** | Course certificate, **19 September 2026** · nine modules, Capability Systems Centre · [verify](https://coursera.org/verify/1E1AKF5U7UCB) |
