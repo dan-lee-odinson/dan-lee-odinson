@@ -230,7 +230,7 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 
 **Mission operations · ground segment and ground control operations · technical program management · systems engineering · AI systems integration** — in the space sector.
 
-**Next up:** external engineering review of the Orbital Thermal Bounds Phase B transport and pressure claims (the model needs a qualified human reviewer, and until it has one the repository says so) · INCOSE ASEP · FCC Amateur Radio Technician · Amateur Space Program Design
+**Next up:** external engineering review of the Orbital Thermal Bounds Phase B transport and pressure claims (the model needs a qualified human reviewer, and until it has one the repository says so) · INCOSE ASEP · FCC Amateur Radio Technician · Amateur Space Program ideation and development
 
 <p align="center">
   <a href="https://orcid.org/0009-0009-9504-0796"><img src="https://img.shields.io/badge/ORCID-0009--0009--9504--0796-A6CE39?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID"></a>
