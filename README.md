@@ -193,6 +193,8 @@ Nine preprints and three versioned software packages. All ORCID-linked, all vers
 
 **Provenance is testable:** DOI-versioned deposits with concept and exact-version identifiers kept distinct, SHA-256 checksums proving committed artifacts are byte-identical to their archival deposits, CI/CD-enforced pytest suites, evidence pinned to exact release and commit hashes. The Peership repository carries a 161-entry bibliographic database and a 70-claim provenance ledger recording each claim's source, evidentiary strength, and counterevidence. Its first adversarial review returned **FAIL** and killed the draft's central claim; that claim is absent from the published paper.
 
+Also: [**The Cosmic Intelligence**](https://thecosmicintelligence.substack.com) — the Substack, where the arguments behind the deposits above get made in public: machine authority, the governance of autonomous systems, and the space industry's reasoning about both. New pieces post regularly.
+
 Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-with-claude) — the working log and reusable skill libraries, including a published negative result: an agentic content venture that spent **~$300 and earned $4.08**, needing ~73× the revenue to break even. *AI is a workflow accelerator; "AI passive income" is a misleading frame.*
 
 </details>
@@ -204,7 +206,7 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 | | |
 |---|---|
 | 🎓 **A.A. Liberal Studies** | **Columbia College** — Sonora, CA · **2003** *(conferred)* |
-| 🛰️ **B.S. Space Studies** | **Everglades University** — Boca Raton, FL · *in progress*<br><sub>Began April 2026 · **36 of 120 credits, 4.0 GPA** · estimated completion **Spring 2029**. Current: AVM 2120 Air Cargo. Upcoming: GPS Surveying, Spacecraft Systems & Design.</sub> |
+| 🛰️ **B.S. Space Studies** | **Everglades University** — Boca Raton, FL · *in progress*<br><sub>Began April 2026 · **36 of 120 credits, 4.0 GPA, Dean's List** · estimated completion **Spring 2029**. Current: AVM 2120 Air Cargo. Upcoming: GPS Surveying, Spacecraft Systems & Design.</sub> |
 
 **Completed training**
 
@@ -213,8 +215,10 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 | 📋 **Google Project Management Professional Certificate** | Completed **31 August 2026** · seven courses, including Agile Project Management |
 | 🐍 **freeCodeCamp Python Developer Certification** | Completed **29 August 2026** · roughly 300 hours across five projects that had to pass automated tests |
 | 🛰️ **NASA ARSET — Fundamentals of Remote Sensing** | Certificate of completion, **6 September 2026** · NASA's certificate records participation in the training |
+| ⚙️ **UNSW Sydney — Introduction to Systems Engineering** | Course certificate, **19 September 2026** · nine modules, Capability Systems Centre · [verify](https://coursera.org/verify/1E1AKF5U7UCB) |
+| 🔬 **NASA Open Science Essentials** | Certificate of achievement, **19 September 2026** · NASA Science Mission Directorate |
 
-**In progress:** UNSW *Introduction to Systems Engineering* (Coursera) · NASA *Open Science 101* and *Open Science Essentials*, enrolled 15 September 2026
+**In progress:** NASA *Open Science 101* · Elements of AI, *Introduction to AI* · AWS *Cloud Practitioner Essentials*
 
 **Professional memberships:** AIAA *(student)* · IEEE *(student; Robotics & Automation Society, Aerospace & Electronic Systems Society)* · INCOSE *(student)* · National Space Club Florida Committee *(student)* · The Planetary Society
 
