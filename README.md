@@ -217,8 +217,10 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 | 🛰️ **NASA ARSET — Fundamentals of Remote Sensing** | Certificate of completion, **5 September 2026** · NASA's certificate records participation in the training · [verify](https://arset.unhosting.site/admin/tool/certificate/index.php?code=9021682462DL) |
 | ⚙️ **UNSW Sydney — Introduction to Systems Engineering** | Course certificate, **19 September 2026** · nine modules, Capability Systems Centre · [verify](https://coursera.org/verify/1E1AKF5U7UCB) |
 | 🔬 **NASA Open Science Essentials** | Certificate of achievement, **19 September 2026** · NASA Science Mission Directorate · [verify](https://www.credly.com/badges/c23746a7-7418-465a-a836-3626943b83c0) |
+| 🗄️ **HackerRank SQL (Advanced)** | Certificate of accomplishment **22 September 2026** · 3 Tests - Basic, Intermediate, Advanced SQL knowledge · [verify](https://www.hackerrank.com/certificates/df0b0adfe14a) |
+| ☁️ **AWS Cloud Practitioner Essentials** | Completion certificate **22 September 2026** · 13 hour self-paced couse modules 
 
-**In progress:** NASA *Open Science 101* · Elements of AI, *Introduction to AI* · AWS *Cloud Practitioner Essentials*
+**In progress:** NASA *Open Science 101* · Elements of AI, *Introduction to AI*
 
 **Professional memberships:** AIAA *(student)* · IEEE *(student; Robotics & Automation Society, Aerospace & Electronic Systems Society)* · INCOSE *(student)* · National Space Club Florida Committee *(student)* · The Planetary Society
 
