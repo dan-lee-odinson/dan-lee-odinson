@@ -70,6 +70,21 @@ What transfers is the tempo: triage under time pressure, escalation paths, unblo
 
 ## Selected projects
 
+### 🖥️ [HUGINN](https://github.com/dan-lee-odinson/huginn) — CubeSat mission operations simulator
+`Python` · `OpenC3 COSMOS` · `Docker` · `v0.1` · **492 tests** · 11 check suites
+
+A mission operations simulator for a fictional 6U CubeSat. The spacecraft is simulated in Python, and I operate it by written procedure against real ground software, OpenC3 COSMOS. The repository holds the complete systems-engineering record behind it: requirements, FMEA, three procedures with 39 steps, and the reports of the four passes I flew — a nominal activation, then three anomaly passes: a solar-array string loss across two contacts, a stuck-on load, and a halt in housekeeping telemetry.
+
+**Flying the passes found defects that review hadn't.** The design record went through seventeen adversarial review rounds, and I dispositioned all 97 findings. Planning and flying the campaign still found a decision step that could not be completed with a stuck load on a charging battery, procedures that sent me to a staleness alarm on a screen where it never appears, and no route into the telemetry-loss procedure once a contact had begun. Each one is recorded as a finding, ruled on, red-lined and flown, and 18 rulings in `DECISIONS.md` record who decided what.
+
+Huginn is the other raven: thought, where [MUNINN](https://github.com/dan-lee-odinson/muninn)'s vocabulary goes to work at a console.
+
+<sub>**Scope:** the spacecraft and its mission are fictional, and its model is simplified. A training simulator, and the starting point for HUGINN's flight version under Project AESIR. Built with AI assistance under my direction and review: Claude wrote the code, tests and documents, and GPT reviewed the design record adversarially. Code: Apache-2.0; documentation: CC BY 4.0; files derived from OpenC3's project template keep OpenC3's licences.</sub>
+
+`mission operations` · `ground segment` · `procedure execution` · `anomaly response` · `systems engineering`
+
+---
+
 ### 🛰️ [Orbital Thermal Bounds](https://github.com/dan-lee-odinson/orbital-thermal-bounds) — spacecraft thermal control
 `Python` · `Wolfram Language` · `GitHub Actions` · `v1.1.0` · **259 passing tests**
 
