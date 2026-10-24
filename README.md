@@ -63,8 +63,16 @@ What transfers is the tempo: triage under time pressure, escalation paths, unblo
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
 ![Chrome Web Store](https://img.shields.io/badge/Chrome_Extension_APIs-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![Amazon Bedrock](https://img.shields.io/badge/Amazon_Bedrock-01A88D?style=flat-square)
+![Strands Agents](https://img.shields.io/badge/Strands_Agents-3B5BA9?style=flat-square)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![ONNX Runtime](https://img.shields.io/badge/ONNX_Runtime-005CED?style=flat-square&logo=onnx&logoColor=white)
+![Telegram Bot API](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=flat-square&logo=telegram&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
-**Python** is the primary language — simulation, numerical analysis, automation, test suites. Closed-form derivations in **Wolfram Language**, cross-checked against the numerical implementation. **Kotlin** is the newest addition, picked up to build MUNINN on Android. My research software ships with **CI/CD-enforced pytest suites** and versioned releases.
+**Python** is the primary language — simulation, numerical analysis, automation, test suites. Closed-form derivations in **Wolfram Language**, cross-checked against the numerical implementation. **Kotlin** was picked up to build MUNINN on Android. Ratatoskr added the agent stack: a local decision model (Strands Decider 2B, served on CPU and, optionally, on the laptop's GPU) in front of an open-weight model on **Amazon Bedrock**, **Strands Agents** hooks, local OCR, a Telegram bot, and a mobile web prototype on GitHub Pages. My research software ships with **CI/CD-enforced pytest suites** and versioned releases; Ratatoskr's suite adds **273 mutation checks**, each mutation applied alone and caught, and every published report regenerates from a committed export.
 
 ---
 
@@ -82,6 +90,21 @@ Huginn is the other raven: thought, where [MUNINN](https://github.com/dan-lee-od
 <sub>**Scope:** the spacecraft and its mission are fictional, and its model is simplified. A training simulator, and the starting point for HUGINN's flight version under Project AESIR. Built with AI assistance under my direction and review: Claude wrote the code, tests and documents, and GPT reviewed the design record adversarially. Code: Apache-2.0; documentation: CC BY 4.0; files derived from OpenC3's project template keep OpenC3's licences.</sub>
 
 `mission operations` · `ground segment` · `procedure execution` · `anomaly response` · `systems engineering`
+
+---
+
+### 🐿️ [Ratatoskr](https://github.com/dan-lee-odinson/ratatoskr-demo) — wearable AI dispatcher with a local gatekeeper
+`Python` · `Strands Decider 2B` · `Amazon Bedrock` · `Strands Agents` · `v1.0.0` · **985 tests** · 273 mutation checks · [interactive sandbox](https://dan-lee-odinson.github.io/ratatoskr-demo/)
+
+A courier that turns spoken commitments into tasks. A wearable recorder's transcript passes a stop-list tripwire and a local privacy gate before an open-weight model on Amazon Bedrock extracts the commitments; then Strands Decider 2B, running on my laptop, answers six typed questions per task (project, real commitment, someone waiting, hard deadline, worth researching, too sensitive to post), and plain code turns the answers into a Todoist task and a three-line notice on a smartwatch. An unsure privacy answer holds the recording. An unsure project leaves the task unsorted with filing buttons on the notice, and my tap is recorded as mine. A photo path puts the same gate in front of pictures, with local OCR and a commitment-or-reference decision, and a companion mobile web prototype is the owner's screen, with one live connection into the courier.
+
+**The finding that set the architecture:** a proposed task can look harmless once extraction has dropped the private context around it. In a live hook check, a Strands hook judging tool arguments alone let such a note through, so the courier gates the source text before Bedrock reads it and checks each proposed task again before writing. On a fresh set of 24 fictional conversations, labels committed before the first model call, the gate held all 12 sensitive ones before any cloud call; asked about the 26 labeled ordinary tasks, Decider assigned a project to 8, all 8 right, and abstained on 18. The camera run is the honest limit: of twelve phone photographs of handwritten cards, every sensitive card stayed held and every reference card stayed local, and none of the four commitments was recovered: the OCR lost key words on every handwritten card, and I filed one card as reference by mistake. Every report regenerates byte for byte from a committed export with no model and no keys.
+
+Built for the AWS Builders Agent Experience Hackathon (Strands Decider), October 2026: the [entry](https://builder.aws.com/project/3KyHho3TSCx8dWc3u14ypmOfgXs/ratatoskr-a-smart-wearable-dispatcher-powered-by-strands-decider-2b), the [overview video](https://youtu.be/dl9dS00GEFY), a [development roadmap](https://github.com/dan-lee-odinson/ratatoskr-demo/blob/main/ROADMAP.md) with a public board, and a [one-minute sandbox](https://dan-lee-odinson.github.io/ratatoskr-demo/) that plays the recorded results with no sign-in. Ratatoskr is the squirrel who carries messages up and down Yggdrasil; the interesting part is what it declines to carry.
+
+<sub>**Scope:** a demo on one laptop with fictional fixtures. The checkpoint was evaluated on images without image training, so the photo numbers are an experiment with that checkpoint; the companion is a prototype with a simulated private viewer and one live connection. I directed the build and dispositioned every design question; Claude Code wrote the code under that direction, and GPT reviewed it adversarially. Apache-2.0. Pocket, Todoist, Telegram, and CircuitMess are their owners' marks; not affiliated with any of them or with AWS.</sub>
+
+`AI systems integration` · `decision models` · `privacy by refusal` · `Strands Agents` · `Amazon Bedrock` · `hackathon entry`
 
 ---
 
