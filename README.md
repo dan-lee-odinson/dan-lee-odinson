@@ -264,6 +264,12 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 
 **Also building:** [Artemis Smartwatch](https://github.com/dan-lee-odinson/circuitmess-artemis-smartwatch) — ESP32 kit, first embedded hardware project · [Reading list](https://github.com/dan-lee-odinson/reading-list) — spaceflight history, propulsion, autonomous systems, with a written reflection on each finished book.
 
+**Hackathons**
+
+| | |
+|---|---|
+| :shipit: **AWS Builder Center** | **Agent Experience Hackathon: Strands Decider** — October 16-23, 2026. Ratatoskr: A Smart Wearable Dispatcher, Powered by Strands Decider 2B [Project link](https://builder.aws.com/project/3KyHho3TSCx8dWc3u14ypmOfgXs/ratatoskr-a-smart-wearable-dispatcher-powered-by-strands-decider-2b) 
+
 ---
 
 ## Where I'm headed
