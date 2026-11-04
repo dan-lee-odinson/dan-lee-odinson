@@ -71,25 +71,49 @@ What transfers is the tempo: triage under time pressure, escalation paths, unblo
 ![Telegram Bot API](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=flat-square&logo=telegram&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![Meta Model API](https://img.shields.io/badge/Meta_Model_API-0866FF?style=flat-square&logo=meta&logoColor=white)
+![Muse Code](https://img.shields.io/badge/Muse_Code-0866FF?style=flat-square&logo=meta&logoColor=white)
+![Baseten](https://img.shields.io/badge/Baseten-1F1F1F?style=flat-square)
+![Modal](https://img.shields.io/badge/Modal-1F1F1F?style=flat-square)
+![llama.cpp](https://img.shields.io/badge/llama.cpp-333333?style=flat-square)
+![OpenC3 COSMOS](https://img.shields.io/badge/OpenC3_COSMOS-1D4ED8?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Blender](https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white)
+![JSON Schema](https://img.shields.io/badge/JSON_Schema-000000?style=flat-square&logo=json&logoColor=white)
 
-**Python** is the primary language — simulation, numerical analysis, automation, test suites. Closed-form derivations in **Wolfram Language**, cross-checked against the numerical implementation. **Kotlin** was picked up to build MUNINN on Android. Ratatoskr added the agent stack: a local decision model (Strands Decider 2B, served on CPU and, optionally, on the laptop's GPU) in front of an open-weight model on **Amazon Bedrock**, **Strands Agents** hooks, local OCR, a Telegram bot, and a mobile web prototype on GitHub Pages. My research software ships with **CI/CD-enforced pytest suites** and versioned releases; Ratatoskr's suite adds **273 mutation checks**, each mutation applied alone and caught, and every published report regenerates from a committed export.
+**Python** is the primary language — simulation, numerical analysis, automation, test suites. Closed-form derivations in **Wolfram Language**, cross-checked against the numerical implementation. **Kotlin** was picked up to build MUNINN on Android. Ratatoskr added the agent stack: a local decision model (Strands Decider 2B, served on CPU and, optionally, on the laptop's GPU) in front of an open-weight model on **Amazon Bedrock**, **Strands Agents** hooks, local OCR, a Telegram bot, and a mobile web prototype on GitHub Pages. ODIN added Meta's models and the services that serve them: **Muse Spark** through the **Meta Model API** and **Muse Spark Open** on **Baseten** in the ground seat, and the open-weights **Muse Glimmer 30B**, served by **llama.cpp** on a **Modal** H100, in the onboard seat, each call metered against a fixed spend stop per provider. **Muse Code** wrote ODIN's model code and built its animation in **Blender**; ODIN operates HUGINN through **OpenC3 COSMOS**, run from its **Docker** images, and its run records are checked against **JSON Schema**. My research software ships with **CI/CD-enforced pytest suites** and versioned releases; Ratatoskr's suite adds **273 mutation checks**, each mutation applied alone and caught, and every published report regenerates from a committed export.
 
 ---
 
 ## Selected projects
 
 ### 🖥️ [HUGINN](https://github.com/dan-lee-odinson/huginn) — CubeSat mission operations simulator
-`Python` · `OpenC3 COSMOS` · `Docker` · `v0.1` · **492 tests** · 11 check suites
+`Python` · `OpenC3 COSMOS` · `Docker` · `v0.1` · **590 tests** · 11 check suites
 
 A mission operations simulator for a fictional 6U CubeSat. The spacecraft is simulated in Python, and I operate it by written procedure against real ground software, OpenC3 COSMOS. The repository holds the complete systems-engineering record behind it: requirements, FMEA, three procedures with 39 steps, and the reports of the four passes I flew — a nominal activation, then three anomaly passes: a solar-array string loss across two contacts, a stuck-on load, and a halt in housekeeping telemetry.
 
-**Flying the passes found defects that review hadn't.** The design record went through seventeen adversarial review rounds, and I dispositioned all 97 findings. Planning and flying the campaign still found a decision step that could not be completed with a stuck load on a charging battery, procedures that sent me to a staleness alarm on a screen where it never appears, and no route into the telemetry-loss procedure once a contact had begun. Each one is recorded as a finding, ruled on, red-lined and flown, and 18 rulings in `DECISIONS.md` record who decided what.
+**Flying the passes found defects that review hadn't.** The design record went through seventeen adversarial review rounds, and I dispositioned all 97 findings. Planning and flying the campaign still found a decision step that could not be completed with a stuck load on a charging battery, procedures that sent me to a staleness alarm on a screen where it never appears, and no route into the telemetry-loss procedure once a contact had begun. Each one is recorded as a finding, ruled on, red-lined and flown, and 23 rulings in `DECISIONS.md` record who decided what.
 
 Huginn is the other raven: thought, where [MUNINN](https://github.com/dan-lee-odinson/muninn)'s vocabulary goes to work at a console.
 
 <sub>**Scope:** the spacecraft and its mission are fictional, and its model is simplified. A training simulator, and the starting point for HUGINN's flight version under Project AESIR. Built with AI assistance under my direction and review: Claude wrote the code, tests and documents, and GPT reviewed the design record adversarially. Code: Apache-2.0; documentation: CC BY 4.0; files derived from OpenC3's project template keep OpenC3's licences.</sub>
 
 `mission operations` · `ground segment` · `procedure execution` · `anomaly response` · `systems engineering`
+
+---
+
+### 🧠 [ODIN](https://github.com/dan-lee-odinson/odin) — AI flight operator under a signed authority
+`Python` · `Muse Spark` · `Muse Glimmer` · `OpenC3 COSMOS` · `Modal` · **1,980 tests** · [demo video](https://youtu.be/8r2OI4ip4Og) · [replay site](https://dan-lee-odinson.github.io/odin/)
+
+An AI flight operator for HUGINN. ODIN works the COSMOS console during contact and takes an onboard seat beside the simulator when the spacecraft is out of contact, and it never commands the spacecraft directly. Every command it wants goes to BALDUR-0, a deterministic gate that checks it against a mission plan I signed, runs its eight checks again just before dispatch, and refuses anything the plan does not allow. Every turn, request, decision and outcome goes into a hash-chained event log ODIN cannot write to, and every score is computed from that log and the simulator's truth file rather than from ODIN's own account.
+
+**Tested on scenarios sealed before its instructions were frozen.** Across 40 scored held-out runs ODIN succeeded in 38, and no request got past the gate outside the signed plan. When authority was revoked after approval, the waiting command was voided before dispatch in all ten runs. Out of contact, Muse Glimmer on a Modal GPU shed a latched-up payload 39 to 45 seconds after onset, against damage due at 120. ODIN also flew the same contacts I flew in HUGINN's campaign, five runs per model, so its results sit beside mine: clean in 44 of 50 runs. One scenario's check contradicted the procedure in force; I set it aside as a faulty test and kept its ten runs in the repository, marked.
+
+Built for the Meta Global AI Developer Hackathon, 26 October to 4 November 2026, as team Ad Astra Simul. In the myth Odin sends Huginn out over the world each day; here ODIN flies it.
+
+<sub>**Scope:** a test bed on one laptop. The spacecraft is HUGINN's simulation, and BALDUR-0 is the first, minimal version of the gate. I directed the build, ruled on every design question and finding, and signed every plan and arming act; Claude Code built the gate, the harness, the event log and the scoring, Muse Code wrote ODIN's model code, and Claude drafted the build contract and the held-out scenarios for my review. Code: Apache-2.0; documentation: CC BY 4.0; the animation scripts: GPL-3.0 or later; OpenC3's material keeps OpenC3's licence. Meta's model names are Meta's marks; not affiliated with Meta.</sub>
+
+`AI systems integration` · `bounded autonomy` · `mission operations` · `held-out evaluation` · `hackathon entry`
 
 ---
 
@@ -244,7 +268,7 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 | | |
 |---|---|
 | 🎓 **A.A. Liberal Studies** | **Columbia College** — Sonora, CA · **2003** *(conferred)* |
-| 🛰️ **B.S. Space Studies** | **Everglades University** — Boca Raton, FL · *in progress*<br><sub>Began April 2026 · **42 of 120 credits, 4.0 GPA, Dean's List** · estimated completion **Spring 2029**. Current: CGS 1060C Introduction to Computers. Upcoming: Principles of Management, Introduction to Space Studies, 	Space Policy and International Law.</sub> |
+| 🛰️ **B.S. Space Studies** | **Everglades University** — Boca Raton, FL · *in progress*<br><sub>Began April 2026 · **42 of 120 credits, 4.0 GPA, Dean's List** · estimated completion **Spring 2029**. Current: CGS 1060C Introduction to Computers. Upcoming: Principles of Management, Introduction to Space Studies, Space Policy and International Law.</sub> |
 
 **Completed training**
 
@@ -256,7 +280,7 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 | ⚙️ **UNSW Sydney — Introduction to Systems Engineering** | Course certificate, **19 September 2026** · nine modules, Capability Systems Centre · [verify](https://coursera.org/verify/1E1AKF5U7UCB) |
 | 🔬 **NASA Open Science Essentials** | Certificate of achievement, **19 September 2026** · NASA Science Mission Directorate · [verify](https://www.credly.com/badges/c23746a7-7418-465a-a836-3626943b83c0) |
 | 🗄️ **HackerRank SQL (Advanced)** | Certificate of accomplishment **22 September 2026** · 3 Tests - Basic, Intermediate, Advanced SQL knowledge · [verify](https://www.hackerrank.com/certificates/df0b0adfe14a) |
-| ☁️ **AWS Cloud Practitioner Essentials** | Completion certificate **22 September 2026** · 13 hour self-paced couse modules 
+| ☁️ **AWS Cloud Practitioner Essentials** | Completion certificate **22 September 2026** · 13 hour self-paced course modules |
 
 **In progress:** NASA *Open Science 101* · Elements of AI, *Introduction to AI*
 
@@ -268,8 +292,9 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 
 | | |
 |---|---|
-| :shipit: **AWS Builder Center** | **Agent Experience Hackathon: Strands Decider** — October 16-23, 2026. Ratatoskr: A Smart Wearable Dispatcher, Powered by Strands Decider 2B [Project link](https://builder.aws.com/project/3KyHho3TSCx8dWc3u14ypmOfgXs/ratatoskr-a-smart-wearable-dispatcher-powered-by-strands-decider-2b) 
-| :m: **Cerebral Valley / Meta** | **Meta Global AI Developer Hackathon** - October 26 - November 4, 2026. ODIN: An AI flight operator for HUGINN, a simulated 6U CubeSat.
+| :shipit: **AWS Builder Center** | **Agent Experience Hackathon: Strands Decider** — October 16-23, 2026. Ratatoskr: A Smart Wearable Dispatcher, Powered by Strands Decider 2B [Project link](https://builder.aws.com/project/3KyHho3TSCx8dWc3u14ypmOfgXs/ratatoskr-a-smart-wearable-dispatcher-powered-by-strands-decider-2b) |
+| :m: **Cerebral Valley / Meta** | **Meta Global AI Developer Hackathon** - October 26 - November 4, 2026. ODIN: An AI flight operator for HUGINN, a simulated 6U CubeSat. [Repository](https://github.com/dan-lee-odinson/odin) · [Demo video](https://youtu.be/8r2OI4ip4Og) |
+
 ---
 
 ## Where I'm headed
