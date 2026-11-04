@@ -244,7 +244,7 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 | | |
 |---|---|
 | 🎓 **A.A. Liberal Studies** | **Columbia College** — Sonora, CA · **2003** *(conferred)* |
-| 🛰️ **B.S. Space Studies** | **Everglades University** — Boca Raton, FL · *in progress*<br><sub>Began April 2026 · **36 of 120 credits, 4.0 GPA, Dean's List** · estimated completion **Spring 2029**. Current: AVM 2120 Air Cargo. Upcoming: GPS Surveying, Spacecraft Systems & Design.</sub> |
+| 🛰️ **B.S. Space Studies** | **Everglades University** — Boca Raton, FL · *in progress*<br><sub>Began April 2026 · **42 of 120 credits, 4.0 GPA, Dean's List** · estimated completion **Spring 2029**. Current: CGS 1060C Introduction to Computers. Upcoming: Principles of Management, Introduction to Space Studies, 	Space Policy and International Law.</sub> |
 
 **Completed training**
 
@@ -269,7 +269,7 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 | | |
 |---|---|
 | :shipit: **AWS Builder Center** | **Agent Experience Hackathon: Strands Decider** — October 16-23, 2026. Ratatoskr: A Smart Wearable Dispatcher, Powered by Strands Decider 2B [Project link](https://builder.aws.com/project/3KyHho3TSCx8dWc3u14ypmOfgXs/ratatoskr-a-smart-wearable-dispatcher-powered-by-strands-decider-2b) 
-
+| :m: **Cerebral Valley / Meta** | **Meta Global AI Developer Hackathon** - October 26 - November 4, 2026. ODIN: An AI flight operator for HUGINN, a simulated 6U CubeSat.
 ---
 
 ## Where I'm headed
