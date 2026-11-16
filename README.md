@@ -87,6 +87,21 @@ What transfers is the tempo: triage under time pressure, escalation paths, unblo
 
 ## Selected projects
 
+### 🌓 [Common Horizon](https://github.com/dan-lee-odinson/common-horizon) — lunar landing site navigator
+`Python` · `TypeScript` · `React` · `three.js` · `FastAPI` · `AWS` · **1,789 tests** · 39 pull requests
+
+A web app that helps a mission planner choose where and when to land on the Moon, built in one weekend as Team Common Horizon's entry in the NASA Space Apps Challenge 2026. Pick a landing site, a launch date and the hardware to deliver, and it shows where the Sun and the Earth sit against that site's real horizon through the stay: how long the site is lit, how long it can talk to Earth, and whether the power system survives the dark. It is live at [commonhorizon.study](https://commonhorizon.study), with seventeen preset sites drawn on real ground from NASA's Lunar Orbiter Laser Altimeter, and Sun and Earth positions that agree with NASA's JPL Horizons System to within 0.006 degrees. Watch the [Demo video](https://www.youtube.com/watch?v=KQOB-ObbJq8) here.
+
+**I led a team of four across four time zones, from the first planning call to a submission filed 84 minutes before the deadline.** I formed the team and set each person's lane: Isabella Lin wrote the physics engine, Murariu Alexandru-Stefan built the backend service, Camille Fourrier planned the three reference missions, and I directed the website, the mission planner, the 3D models, the demo video and the AWS deployment. I set the plan the weekend ran on: the scope, the build order, a data contract agreed between the engine, the backend and the website, and the rules everyone worked under. Every figure carries its source and a status label, every AI tool is disclosed, and all 39 pull requests were reviewed before they merged. I called the code freeze five hours ahead of the deadline, and the frozen site was checked against the mission plan before we submitted.
+
+**The terrain decides the answer.** At the Shackleton Connecting Ridge near the south pole, a smooth-Moon calculation puts the Sun in view for 57 percent of 2027. With the ridge's real terrain, the same point has the Sun in view for 83 percent of the year, and its longest dark period falls from 140 days to about a week. A cargo delivery to the Nobile region that passes every check on time fails on night power when it launches 14 days late.
+
+<sub>**Scope:** a hackathon entry, built 14–15 November 2026. Sunlight figures use real terrain at six of the seventeen sites and a smooth horizon at the rest, and the app says which on each site. Hardware models are illustrative shapes. Built with AI assistance under my direction and review: Claude wrote the website, planner, model and terrain code, with its tests and documents; each teammate's tools are in the repository's AI-use logs; the in-app assistant runs OpenAI's gpt-oss-120b on Amazon Bedrock and words its answers from the engine's results. Not endorsed by NASA. Code: Apache-2.0.</sub>
+
+`team leadership` · `technical project management` · `mission planning` · `systems integration` · `NASA open data`
+
+---
+
 ### 🖥️ [HUGINN](https://github.com/dan-lee-odinson/huginn) — CubeSat mission operations simulator
 `Python` · `OpenC3 COSMOS` · `Docker` · `v0.1` · **590 tests** · 11 check suites
 
@@ -294,6 +309,7 @@ Also: [**Coworking with Claude**](https://github.com/dan-lee-odinson/coworking-w
 |---|---|
 | :shipit: **AWS Builder Center** | **Agent Experience Hackathon: Strands Decider** — October 16-23, 2026. Ratatoskr: A Smart Wearable Dispatcher, Powered by Strands Decider 2B [Project link](https://builder.aws.com/project/3KyHho3TSCx8dWc3u14ypmOfgXs/ratatoskr-a-smart-wearable-dispatcher-powered-by-strands-decider-2b) |
 | :m: **Cerebral Valley / Meta** | **Meta Global AI Developer Hackathon** - October 26 - November 4, 2026. ODIN: An AI flight operator for HUGINN, a simulated 6U CubeSat. [Repository](https://github.com/dan-lee-odinson/odin) · [Demo video](https://youtu.be/8r2OI4ip4Og) |
+| 🌓 **2026 NASA Space Apps Challenge** | **Lunar Landing Site Navigator** - November 14-15, 2026. Lunar landing site navigator: compare landing sites and dates by where the Sun and the Earth sit against the Moon's real horizon. [Project link](https://www.spaceappschallenge.org/2026/find-a-team/common-horizon/?tab=project) · [Repository](https://github.com/dan-lee-odinson/common-horizon) · [Demo video](https://www.youtube.com/watch?v=KQOB-ObbJq8)
 
 ---
 
