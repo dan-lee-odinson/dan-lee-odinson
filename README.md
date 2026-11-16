@@ -31,6 +31,7 @@ I scope rigorous technical work, verify it, ship it, and stand behind it. **Ever
 | **Throughput** | **20–35 concurrent client implementations maintained as a continuous rolling caseload**, sustained for three years at VensureHR |
 | **Concurrency** | **60-client ongoing active caseload**, held continuously for seven years at HUB International |
 | **Volume** | **~150 implementations at HUB International**, as sole technology specialist for the Northwest region / **~400 implementations at VensureHR**, as implementation consultant for ASO and PEO US client implementations |
+| **Cadence** | **42 new Consultants trained in 3 consecutive cohorts**, while developing and refining the training curriculum and evaluation rubric for VensureHR Implementations |
 
 A continuous, high-tempo delivery load — not a sequence of one-off projects. The queue stays full and I don't fall over. I've since moved onto an internal **SME support team**: triaging incoming issues, unblocking consultants running live implementations, owning the support queue.
 
