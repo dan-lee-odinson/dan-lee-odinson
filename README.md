@@ -118,7 +118,7 @@ Huginn is the other raven: thought, where [MUNINN](https://github.com/dan-lee-od
 
 ---
 
-### 🧠 [ODIN](https://github.com/dan-lee-odinson/odin) — AI flight operator under a signed authority
+### 🧠 [ODIN](https://github.com/dan-lee-odinson/odin) — AI spacecraft operator under a signed authority
 `Python` · `Muse Spark` · `Muse Glimmer` · `OpenC3 COSMOS` · `Modal` · **1,980 tests** · [demo video](https://youtu.be/8r2OI4ip4Og) · [replay site](https://dan-lee-odinson.github.io/odin/)
 
 An AI flight operator for HUGINN. ODIN works the COSMOS console during contact and takes an onboard seat beside the simulator when the spacecraft is out of contact, and it never commands the spacecraft directly. Every command it wants goes to BALDUR-0, a deterministic gate that checks it against a mission plan I signed, runs its eight checks again just before dispatch, and refuses anything the plan does not allow. Every turn, request, decision and outcome goes into a hash-chained event log ODIN cannot write to, and every score is computed from that log and the simulator's truth file rather than from ODIN's own account.
